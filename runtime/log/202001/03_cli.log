@@ -1,0 +1,29 @@
+[ 2020-01-03T12:12:51+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ 2020-01-03T12:12:51+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-01-03T12:12:51+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ 2020-01-03T12:12:51+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-01-03T12:12:51+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2020-01-03T12:12:51+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'tsinghua_rotation' [ RunTime:0.002000s ]
+[ 2020-01-03T12:12:51+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_tsinghua_rotation' [ RunTime:0.002000s ]
+[ 2020-01-03T12:12:51+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'fa_tsinghua_rotation' ORDER BY ORDINAL_POSITION [ RunTime:0.001000s ]
+[ 2020-01-03T12:12:51+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ 2020-01-03T12:12:51+08:00 ][ info ] [ CACHE ] INIT File
+[ 2020-01-03T12:12:51+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ 2020-01-03T12:12:51+08:00 ][ info ] [ DB ] INIT mysql
+[ 2020-01-03T12:12:51+08:00 ][ info ] [ LANG ] C:\Users\Administrator\Desktop\website\application\admin\lang/zh-cn.php
+[ 2020-01-03T12:12:51+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.004001s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2020-01-03T12:12:51+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.003000s ]
+[ 2020-01-03T12:12:51+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'tsinghua_rotation' LIMIT 1 [ RunTime:0.001000s ]
+[ 2020-01-03T12:12:51+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'tsinghua_rotation' , '首页轮播图' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1578024771 , 1578024771) [ RunTime:0.004000s ]
+[ 2020-01-03T12:12:51+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'tsinghua_rotation/index' LIMIT 1 [ RunTime:0.000000s ]
+[ 2020-01-03T12:12:51+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'tsinghua_rotation/add' LIMIT 1 [ RunTime:0.000000s ]
+[ 2020-01-03T12:12:51+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'tsinghua_rotation/edit' LIMIT 1 [ RunTime:0.001000s ]
+[ 2020-01-03T12:12:51+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'tsinghua_rotation/del' LIMIT 1 [ RunTime:0.000000s ]
+[ 2020-01-03T12:12:51+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'tsinghua_rotation/multi' LIMIT 1 [ RunTime:0.000000s ]
+[ 2020-01-03T12:12:51+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 91 , 'tsinghua_rotation/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1578024771 , 1578024771) [ RunTime:0.000000s ]
+[ 2020-01-03T12:12:51+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 91 , 'tsinghua_rotation/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1578024771 , 1578024771) [ RunTime:0.000000s ]
+[ 2020-01-03T12:12:51+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 91 , 'tsinghua_rotation/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1578024771 , 1578024771) [ RunTime:0.000000s ]
+[ 2020-01-03T12:12:51+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 91 , 'tsinghua_rotation/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1578024771 , 1578024771) [ RunTime:0.000000s ]
+[ 2020-01-03T12:12:51+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 91 , 'tsinghua_rotation/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1578024771 , 1578024771) [ RunTime:0.000000s ]

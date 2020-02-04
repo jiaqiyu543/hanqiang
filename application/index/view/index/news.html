@@ -1,0 +1,84 @@
+{extend name="index/base" /} {block name="body"}
+<style>
+    #masthead {
+        padding-bottom: 20px;
+    }
+</style>
+<div class="ak-container">
+    <section id="primary" class="content-area">
+        <main id="main" class="site-main" role="main">
+            <header class="page-header">
+                <h1 class="page-title">
+                    News </h1>
+            </header>
+            <!-- .page-header -->
+            {foreach name="data" item="vo"}
+            <article id="post-1606" class="cat-event-list">
+                <header class="entry-header">
+                    <h1 class="entry-title"><a href="http://xuslab.com/scholarships-and-prizes-of-xus-group-in-2018/" rel="bookmark">{$vo.title}</a></h1>
+                </header>
+                <!-- .entry-header -->
+                <div class="entry-content">
+                    <div class="cat-event-image">
+                        <img src="{$vo.image}" alt="Happy Year of the Pig">
+                    </div>
+                    <div class="cat-event-excerpt ">
+                        <div class="event-date-archive">{$vo.create_time}</div>
+                        <div>{$vo.introduction}</div>
+                    </div> <a href="/news/detail/{$vo.id}" class="cat-event-more bttn">More</a>
+                </div>
+                <!-- .entry-content -->
+            </article>
+
+            {/foreach}
+
+            <article id="post-1425" class="cat-event-list">
+                <header class="entry-header">
+                    <h1 class="entry-title"><a href="{$site.domain}/joint-group-meeting-with-huos-group/" rel="bookmark">Joint group meeting with Huo&#8217;s group</a></h1>
+                </header>
+                <!-- .entry-header -->
+                <div class="entry-content">
+                    <div class="cat-event-image">
+                        <img src="{$site.domain}/wp-content/uploads/2018/04/WechatIMG305.jpg" alt="Joint group meeting with Huo&#8217;s group">
+                    </div>
+                    <div class="cat-event-excerpt ">
+                        <div class="event-date-archive">News on 31 Mar , 2018</div>
+                        <div>On Mar. 31st, 2018, Xu's group and Prof. Fengwei Huo's group held a joint group meeting in Nanjing Tech University, Nanjing. At the meeting, five students from each group gave presentations. Students from Xu's group introduced
+                            dynamic chemistry and responsive systems, students from Huo's group introduced metal-organic framework and flexible electronic devices. &nbsp;</div>
+                    </div> <a href="{$site.domain}/joint-group-meeting-with-huos-group/" class="cat-event-more bttn">More</a>
+                </div>
+                <!-- .entry-content -->
+            </article>
+            <article id="post-1401" class="cat-event-list">
+                <header class="entry-header">
+                    <h1 class="entry-title"><a href="{$site.domain}/prof-huaping-xu-enrolled-in-leading-talent-of-national-high-level-personnel-of-special-support-program-people-plan/" rel="bookmark">Prof. Huaping Xu enrolled in Leading Talent of National High-level personnel of special support program (&#8221; people plan &#8220;)</a></h1>
+                </header>
+                <!-- .entry-header -->
+                <div class="entry-content">
+                    <div class="cat-event-excerpt full-width">
+                        <div class="event-date-archive">News on 20 Jan , 2017</div>
+                        <div>Prof. Huaping Xu enrolled in Leading Talent of National High-level personnel of special support program (" people plan ").</div>
+                    </div> <a href="{$site.domain}/prof-huaping-xu-enrolled-in-leading-talent-of-national-high-level-personnel-of-special-support-program-people-plan/" class="cat-event-more bttn">More</a>
+                </div>
+                <!-- .entry-content -->
+            </article>
+            <nav class="navigation paging-navigation" role="navigation">
+                <h1 class="screen-reader-text">Posts navigation</h1>
+                <div class="nav-links">
+                    <div class="nav-previous"><a href="{$site.domain}/category/news/page/3/"><span class="meta-nav">&larr;</span> Older posts</a>
+                    </div>
+                    <div class="nav-next"><a href="{$site.domain}/category/news/">Newer posts <span class="meta-nav">&rarr;</span></a>
+                    </div>
+                </div>
+                <!-- .nav-links -->
+            </nav>
+            <!-- .navigation -->
+        </main>
+        <!-- #main -->
+    </section>
+    <!-- #primary -->
+    <div id="secondary-right" class="widget-area right-sidebar sidebar"></div>
+    <!-- #secondary -->
+</div>
+
+{/block}

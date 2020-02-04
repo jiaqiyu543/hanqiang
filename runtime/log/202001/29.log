@@ -1,0 +1,1476 @@
+---------------------------------------------------------------
+[ 2020-01-29T14:05:29+08:00 ] 127.0.0.1 GET 127.0.0.1/
+[运行时间：0.172010s] [吞吐率：5.81req/s] [内存消耗：3,990.19kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'csrftoken=8KF6lJ6Ldbs8NghjFJ2LOUMzU8PQU6EowbbBHtDQ0VCcuhTpC6Hd0MMq5ksumxQy; Hm_lvt_352162eb272db8b3edfe90bede708dff=1578135542,1578623601,1578718585,1578824067',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\Users\Administrator\Desktop\website\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\website\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'rotation',
+  4 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009001s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_tsinghua_rotation` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_tsinghua_rotation` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_tsinghua_news` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_tsinghua_news` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2020-01-29T14:05:29+08:00 ] 127.0.0.1 GET 127.0.0.1/Huaping_files/fonts.css
+[运行时间：0.064004s] [吞吐率：15.62req/s] [内存消耗：2,090.80kb] [文件加载：106]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Huaping_files',
+    1 => 'fonts.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'csrftoken=8KF6lJ6Ldbs8NghjFJ2LOUMzU8PQU6EowbbBHtDQ0VCcuhTpC6Hd0MMq5ksumxQy; Hm_lvt_352162eb272db8b3edfe90bede708dff=1578135542,1578623601,1578718585,1578824067',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-29T14:05:30+08:00 ] 127.0.0.1 GET 127.0.0.1/wp-content/uploads/2014/12/favicon.ico
+[运行时间：0.028002s] [吞吐率：35.71req/s] [内存消耗：2,091.21kb] [文件加载：106]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wp-content',
+    1 => 'uploads',
+    2 => '2014',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'csrftoken=8KF6lJ6Ldbs8NghjFJ2LOUMzU8PQU6EowbbBHtDQ0VCcuhTpC6Hd0MMq5ksumxQy; Hm_lvt_352162eb272db8b3edfe90bede708dff=1578623601,1578718585,1578824067,1580277930; Hm_lpvt_352162eb272db8b3edfe90bede708dff=1580277930',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  0 => 'favicon.ico',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-29T14:06:09+08:00 ] 127.0.0.1 GET 127.0.0.1/admin.php
+[运行时间：0.059003s] [吞吐率：16.95req/s] [内存消耗：2,872.76kb] [文件加载：122]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'csrftoken=8KF6lJ6Ldbs8NghjFJ2LOUMzU8PQU6EowbbBHtDQ0VCcuhTpC6Hd0MMq5ksumxQy; Hm_lvt_352162eb272db8b3edfe90bede708dff=1578623601,1578718585,1578824067,1580277930; Hm_lpvt_352162eb272db8b3edfe90bede708dff=1580277930',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\website\public/../application/common\view\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-29T14:06:11+08:00 ] 127.0.0.1 GET 127.0.0.1/admin.php/index/login?url=%2Fadmin.php
+[运行时间：0.048003s] [吞吐率：20.83req/s] [内存消耗：3,392.13kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'csrftoken=8KF6lJ6Ldbs8NghjFJ2LOUMzU8PQU6EowbbBHtDQ0VCcuhTpC6Hd0MMq5ksumxQy; Hm_lvt_352162eb272db8b3edfe90bede708dff=1578623601,1578718585,1578824067,1580277930; Hm_lpvt_352162eb272db8b3edfe90bede708dff=1580277930; PHPSESSID=sl5iqnbfdua8b3r7gvsheb6cmq',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin.php',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/admin.php',
+)
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ C:\Users\Administrator\Desktop\website\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\website\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-29T14:06:11+08:00 ] 127.0.0.1 GET 127.0.0.1/admin.php/ajax/lang?callback=define&controllername=index&v=1580277971
+[运行时间：0.042003s] [吞吐率：23.81req/s] [内存消耗：3,397.59kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'csrftoken=8KF6lJ6Ldbs8NghjFJ2LOUMzU8PQU6EowbbBHtDQ0VCcuhTpC6Hd0MMq5ksumxQy; Hm_lvt_352162eb272db8b3edfe90bede708dff=1578623601,1578718585,1578824067,1580277930; Hm_lpvt_352162eb272db8b3edfe90bede708dff=1580277930; PHPSESSID=sl5iqnbfdua8b3r7gvsheb6cmq',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin.php/index/login?url=%2Fadmin.php',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1580277971',
+)
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ C:\Users\Administrator\Desktop\website\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-29T14:06:13+08:00 ] 127.0.0.1 POST 127.0.0.1/admin.php/index/login?url=%2Fadmin.php
+[运行时间：0.072004s] [吞吐率：13.89req/s] [内存消耗：4,191.15kb] [文件加载：134]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'csrftoken=8KF6lJ6Ldbs8NghjFJ2LOUMzU8PQU6EowbbBHtDQ0VCcuhTpC6Hd0MMq5ksumxQy; Hm_lvt_352162eb272db8b3edfe90bede708dff=1578623601,1578718585,1578824067,1580277930; Hm_lpvt_352162eb272db8b3edfe90bede708dff=1580277930; PHPSESSID=sl5iqnbfdua8b3r7gvsheb6cmq',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin.php/index/login?url=%2Fadmin.php',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.1',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '73',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/admin.php',
+  '__token__' => '064551aa3481971671d2429c02e83a88',
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ C:\Users\Administrator\Desktop\website\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.008000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `fa_admin`  SET `logintime`=1580277973,`token`='369348ac-78a6-4efa-9d6b-494eea877a96',`updatetime`=1580277973  WHERE  `id` = 1 [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_admin_log` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] INSERT INTO `fa_admin_log` (`title` , `content` , `url` , `admin_id` , `username` , `useragent` , `ip` , `createtime`) VALUES ('登录' , '{\"url\":\"\\/admin.php\",\"__token__\":\"064551aa3481971671d2429c02e83a88\",\"username\":\"admin\"}' , '/admin.php/index/login?url=%2Fadmin.php' , 1 , 'admin' , 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36' , '127.0.0.1' , 1580277973) [ RunTime:0.004000s ]
+---------------------------------------------------------------
+[ 2020-01-29T14:06:13+08:00 ] 127.0.0.1 GET 127.0.0.1/admin.php
+[运行时间：0.170010s] [吞吐率：5.88req/s] [内存消耗：4,544.58kb] [文件加载：144]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'csrftoken=8KF6lJ6Ldbs8NghjFJ2LOUMzU8PQU6EowbbBHtDQ0VCcuhTpC6Hd0MMq5ksumxQy; Hm_lvt_352162eb272db8b3edfe90bede708dff=1578623601,1578718585,1578824067,1580277930; Hm_lpvt_352162eb272db8b3edfe90bede708dff=1580277930; PHPSESSID=sl5iqnbfdua8b3r7gvsheb6cmq',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin.php/index/login?url=%2Fadmin.php',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\Users\Administrator\Desktop\website\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\website\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `name`,`pid` FROM `fa_auth_rule` WHERE  `status` = 'normal'  AND `ismenu` = 0  AND `name` LIKE '%/index' [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2020-01-29T14:06:13+08:00 ] 127.0.0.1 GET 127.0.0.1/admin.php/dashboard?addtabs=1
+[运行时间：0.099006s] [吞吐率：10.10req/s] [内存消耗：4,348.19kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'csrftoken=8KF6lJ6Ldbs8NghjFJ2LOUMzU8PQU6EowbbBHtDQ0VCcuhTpC6Hd0MMq5ksumxQy; Hm_lvt_352162eb272db8b3edfe90bede708dff=1578623601,1578718585,1578824067,1580277930; Hm_lpvt_352162eb272db8b3edfe90bede708dff=1580277930; PHPSESSID=sl5iqnbfdua8b3r7gvsheb6cmq',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin.php',
+  'sec-fetch-mode' => 'nested-navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.006000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ C:\Users\Administrator\Desktop\website\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\website\public/../application/admin\view\dashboard\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2020-01-29T14:06:13+08:00 ] 127.0.0.1 GET 127.0.0.1/admin.php/ajax/lang?callback=define&controllername=dashboard&v=1580277973
+[运行时间：0.065004s] [吞吐率：15.38req/s] [内存消耗：4,313.95kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'csrftoken=8KF6lJ6Ldbs8NghjFJ2LOUMzU8PQU6EowbbBHtDQ0VCcuhTpC6Hd0MMq5ksumxQy; Hm_lvt_352162eb272db8b3edfe90bede708dff=1578623601,1578718585,1578824067,1580277930; Hm_lpvt_352162eb272db8b3edfe90bede708dff=1580277930; PHPSESSID=sl5iqnbfdua8b3r7gvsheb6cmq',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin.php/dashboard?addtabs=1',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1580277973',
+)
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ C:\Users\Administrator\Desktop\website\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2020-01-29T14:06:14+08:00 ] 127.0.0.1 GET 127.0.0.1/admin.php/ajax/lang?callback=define&controllername=index&v=1580277973
+[运行时间：0.055003s] [吞吐率：18.18req/s] [内存消耗：4,314.71kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'csrftoken=8KF6lJ6Ldbs8NghjFJ2LOUMzU8PQU6EowbbBHtDQ0VCcuhTpC6Hd0MMq5ksumxQy; Hm_lvt_352162eb272db8b3edfe90bede708dff=1578623601,1578718585,1578824067,1580277930; Hm_lpvt_352162eb272db8b3edfe90bede708dff=1580277930; PHPSESSID=sl5iqnbfdua8b3r7gvsheb6cmq',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/admin.php',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1580277973',
+)
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ C:\Users\Administrator\Desktop\website\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `aga`.`uid`,`aga`.`group_id`,`ag`.`id`,`ag`.`pid`,`ag`.`name`,`ag`.`rules` FROM `fa_auth_group_access` `aga` LEFT JOIN `fa_auth_group` `ag` ON `aga`.`group_id`=`ag`.`id` WHERE  (  aga.uid='1' and ag.status='normal' ) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2020-01-29T14:07:16+08:00 ] 127.0.0.1 GET 127.0.0.1/
+[运行时间：0.083005s] [吞吐率：12.05req/s] [内存消耗：3,990.58kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005001s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'csrftoken=8KF6lJ6Ldbs8NghjFJ2LOUMzU8PQU6EowbbBHtDQ0VCcuhTpC6Hd0MMq5ksumxQy; Hm_lvt_352162eb272db8b3edfe90bede708dff=1578623601,1578718585,1578824067,1580277930; Hm_lpvt_352162eb272db8b3edfe90bede708dff=1580277930; PHPSESSID=sl5iqnbfdua8b3r7gvsheb6cmq',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\Users\Administrator\Desktop\website\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\website\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'rotation',
+  4 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_tsinghua_rotation` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_tsinghua_rotation` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_tsinghua_news` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_tsinghua_news` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2020-01-29T14:07:16+08:00 ] 127.0.0.1 GET 127.0.0.1/Huaping_files/fonts.css
+[运行时间：0.064003s] [吞吐率：15.62req/s] [内存消耗：2,091.17kb] [文件加载：106]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Huaping_files',
+    1 => 'fonts.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'csrftoken=8KF6lJ6Ldbs8NghjFJ2LOUMzU8PQU6EowbbBHtDQ0VCcuhTpC6Hd0MMq5ksumxQy; Hm_lvt_352162eb272db8b3edfe90bede708dff=1578623601,1578718585,1578824067,1580277930; Hm_lpvt_352162eb272db8b3edfe90bede708dff=1580277930; PHPSESSID=sl5iqnbfdua8b3r7gvsheb6cmq',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-29T15:03:04+08:00 ] 127.0.0.1 GET 127.0.0.1/
+[运行时间：0.066004s] [吞吐率：15.15req/s] [内存消耗：3,990.58kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'csrftoken=8KF6lJ6Ldbs8NghjFJ2LOUMzU8PQU6EowbbBHtDQ0VCcuhTpC6Hd0MMq5ksumxQy; Hm_lvt_352162eb272db8b3edfe90bede708dff=1578623601,1578718585,1578824067,1580277930; PHPSESSID=sl5iqnbfdua8b3r7gvsheb6cmq; Hm_lpvt_352162eb272db8b3edfe90bede708dff=1580278037',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\Users\Administrator\Desktop\website\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\website\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'rotation',
+  4 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003001s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_tsinghua_rotation` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_tsinghua_rotation` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_tsinghua_news` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_tsinghua_news` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2020-01-29T15:03:05+08:00 ] 127.0.0.1 GET 127.0.0.1/Huaping_files/fonts.css
+[运行时间：0.057003s] [吞吐率：17.54req/s] [内存消耗：2,091.17kb] [文件加载：106]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Huaping_files',
+    1 => 'fonts.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'csrftoken=8KF6lJ6Ldbs8NghjFJ2LOUMzU8PQU6EowbbBHtDQ0VCcuhTpC6Hd0MMq5ksumxQy; Hm_lvt_352162eb272db8b3edfe90bede708dff=1578623601,1578718585,1578824067,1580277930; PHPSESSID=sl5iqnbfdua8b3r7gvsheb6cmq; Hm_lpvt_352162eb272db8b3edfe90bede708dff=1580278037',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-29T15:04:39+08:00 ] 127.0.0.1 GET 127.0.0.1/Huaping_files/fonts.css
+[运行时间：0.047003s] [吞吐率：21.28req/s] [内存消耗：2,091.17kb] [文件加载：106]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Huaping_files',
+    1 => 'fonts.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'csrftoken=8KF6lJ6Ldbs8NghjFJ2LOUMzU8PQU6EowbbBHtDQ0VCcuhTpC6Hd0MMq5ksumxQy; Hm_lvt_352162eb272db8b3edfe90bede708dff=1578623601,1578718585,1578824067,1580277930; PHPSESSID=sl5iqnbfdua8b3r7gvsheb6cmq; Hm_lpvt_352162eb272db8b3edfe90bede708dff=1580281385',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-29T15:07:57+08:00 ] 127.0.0.1 GET 127.0.0.1/
+[运行时间：0.054003s] [吞吐率：18.52req/s] [内存消耗：3,991.03kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'csrftoken=8KF6lJ6Ldbs8NghjFJ2LOUMzU8PQU6EowbbBHtDQ0VCcuhTpC6Hd0MMq5ksumxQy; Hm_lvt_352162eb272db8b3edfe90bede708dff=1578623601,1578718585,1578824067,1580277930; PHPSESSID=sl5iqnbfdua8b3r7gvsheb6cmq; Hm_lpvt_352162eb272db8b3edfe90bede708dff=1580281385',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\Users\Administrator\Desktop\website\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\website\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'rotation',
+  4 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_tsinghua_rotation` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_tsinghua_rotation` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_tsinghua_news` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_tsinghua_news` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2020-01-29T15:07:57+08:00 ] 127.0.0.1 GET 127.0.0.1/Huaping_files/fonts.css
+[运行时间：0.033001s] [吞吐率：30.30req/s] [内存消耗：2,091.17kb] [文件加载：106]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Huaping_files',
+    1 => 'fonts.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'csrftoken=8KF6lJ6Ldbs8NghjFJ2LOUMzU8PQU6EowbbBHtDQ0VCcuhTpC6Hd0MMq5ksumxQy; Hm_lvt_352162eb272db8b3edfe90bede708dff=1578623601,1578718585,1578824067,1580277930; PHPSESSID=sl5iqnbfdua8b3r7gvsheb6cmq; Hm_lpvt_352162eb272db8b3edfe90bede708dff=1580281385',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-29T15:19:09+08:00 ] 127.0.0.1 GET 127.0.0.1/category/news/
+[运行时间：0.039002s] [吞吐率：25.64req/s] [内存消耗：2,092.54kb] [文件加载：106]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'category',
+    1 => 'news',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'csrftoken=8KF6lJ6Ldbs8NghjFJ2LOUMzU8PQU6EowbbBHtDQ0VCcuhTpC6Hd0MMq5ksumxQy; Hm_lvt_352162eb272db8b3edfe90bede708dff=1578623601,1578718585,1578824067,1580277930; PHPSESSID=sl5iqnbfdua8b3r7gvsheb6cmq; Hm_lpvt_352162eb272db8b3edfe90bede708dff=1580281678',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-29T15:19:11+08:00 ] 127.0.0.1 GET 127.0.0.1/category/news/
+[运行时间：0.036002s] [吞吐率：27.78req/s] [内存消耗：2,092.56kb] [文件加载：106]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'category',
+    1 => 'news',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'csrftoken=8KF6lJ6Ldbs8NghjFJ2LOUMzU8PQU6EowbbBHtDQ0VCcuhTpC6Hd0MMq5ksumxQy; Hm_lvt_352162eb272db8b3edfe90bede708dff=1578623601,1578718585,1578824067,1580277930; PHPSESSID=sl5iqnbfdua8b3r7gvsheb6cmq; Hm_lpvt_352162eb272db8b3edfe90bede708dff=1580281678',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/category/news/',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-29T15:19:19+08:00 ] 127.0.0.1 GET 127.0.0.1/news/
+[运行时间：0.040002s] [吞吐率：25.00req/s] [内存消耗：3,016.70kb] [文件加载：121]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'news',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'csrftoken=8KF6lJ6Ldbs8NghjFJ2LOUMzU8PQU6EowbbBHtDQ0VCcuhTpC6Hd0MMq5ksumxQy; Hm_lvt_352162eb272db8b3edfe90bede708dff=1578623601,1578718585,1578824067,1580277930; PHPSESSID=sl5iqnbfdua8b3r7gvsheb6cmq; Hm_lpvt_352162eb272db8b3edfe90bede708dff=1580282355',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->news[ C:\Users\Administrator\Desktop\website\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\website\public/../application/index\view\index\news.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-29T15:19:19+08:00 ] 127.0.0.1 GET 127.0.0.1/wp-content/uploads/2018/11/Weder.jpg
+[运行时间：0.039002s] [吞吐率：25.64req/s] [内存消耗：2,091.51kb] [文件加载：106]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wp-content',
+    1 => 'uploads',
+    2 => '2018',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'csrftoken=8KF6lJ6Ldbs8NghjFJ2LOUMzU8PQU6EowbbBHtDQ0VCcuhTpC6Hd0MMq5ksumxQy; Hm_lvt_352162eb272db8b3edfe90bede708dff=1578623601,1578718585,1578824067,1580277930; PHPSESSID=sl5iqnbfdua8b3r7gvsheb6cmq; Hm_lpvt_352162eb272db8b3edfe90bede708dff=1580282355',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/news/',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  0 => 'Weder.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-29T15:19:20+08:00 ] 127.0.0.1 GET 127.0.0.1/wp-content/uploads/2018/07/%E5%9B%BE%E7%89%87-1.jpg
+[运行时间：0.051003s] [吞吐率：19.61req/s] [内存消耗：2,091.62kb] [文件加载：106]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wp-content',
+    1 => 'uploads',
+    2 => '2018',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'csrftoken=8KF6lJ6Ldbs8NghjFJ2LOUMzU8PQU6EowbbBHtDQ0VCcuhTpC6Hd0MMq5ksumxQy; Hm_lvt_352162eb272db8b3edfe90bede708dff=1578623601,1578718585,1578824067,1580277930; PHPSESSID=sl5iqnbfdua8b3r7gvsheb6cmq; Hm_lpvt_352162eb272db8b3edfe90bede708dff=1580282355',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/news/',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '07' => '图片-1.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-29T15:19:20+08:00 ] 127.0.0.1 GET 127.0.0.1/wp-content/uploads/2018/11/Xing-Yi-Ling.jpg
+[运行时间：0.030002s] [吞吐率：33.33req/s] [内存消耗：2,091.63kb] [文件加载：106]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wp-content',
+    1 => 'uploads',
+    2 => '2018',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'csrftoken=8KF6lJ6Ldbs8NghjFJ2LOUMzU8PQU6EowbbBHtDQ0VCcuhTpC6Hd0MMq5ksumxQy; Hm_lvt_352162eb272db8b3edfe90bede708dff=1578623601,1578718585,1578824067,1580277930; PHPSESSID=sl5iqnbfdua8b3r7gvsheb6cmq; Hm_lpvt_352162eb272db8b3edfe90bede708dff=1580282355',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/news/',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  0 => 'Xing-Yi-Ling.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-29T15:19:20+08:00 ] 127.0.0.1 GET 127.0.0.1/wp-content/uploads/2018/05/31st-CCS-Congress.jpg
+[运行时间：0.038002s] [吞吐率：26.31req/s] [内存消耗：2,091.67kb] [文件加载：106]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wp-content',
+    1 => 'uploads',
+    2 => '2018',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'csrftoken=8KF6lJ6Ldbs8NghjFJ2LOUMzU8PQU6EowbbBHtDQ0VCcuhTpC6Hd0MMq5ksumxQy; Hm_lvt_352162eb272db8b3edfe90bede708dff=1578623601,1578718585,1578824067,1580277930; PHPSESSID=sl5iqnbfdua8b3r7gvsheb6cmq; Hm_lpvt_352162eb272db8b3edfe90bede708dff=1580282355',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/news/',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '05' => '31st-CCS-Congress.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-29T15:19:20+08:00 ] 127.0.0.1 GET 127.0.0.1/Huaping_files/fonts.css
+[运行时间：0.041002s] [吞吐率：24.39req/s] [内存消耗：2,091.17kb] [文件加载：106]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Huaping_files',
+    1 => 'fonts.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'csrftoken=8KF6lJ6Ldbs8NghjFJ2LOUMzU8PQU6EowbbBHtDQ0VCcuhTpC6Hd0MMq5ksumxQy; Hm_lvt_352162eb272db8b3edfe90bede708dff=1578623601,1578718585,1578824067,1580277930; PHPSESSID=sl5iqnbfdua8b3r7gvsheb6cmq; Hm_lpvt_352162eb272db8b3edfe90bede708dff=1580282355',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/news/',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-29T15:19:20+08:00 ] 127.0.0.1 GET 127.0.0.1/wp-content/uploads/2018/04/WechatIMG305.jpg
+[运行时间：0.040003s] [吞吐率：25.00req/s] [内存消耗：2,091.67kb] [文件加载：106]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wp-content',
+    1 => 'uploads',
+    2 => '2018',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'csrftoken=8KF6lJ6Ldbs8NghjFJ2LOUMzU8PQU6EowbbBHtDQ0VCcuhTpC6Hd0MMq5ksumxQy; Hm_lvt_352162eb272db8b3edfe90bede708dff=1578623601,1578718585,1578824067,1580277930; PHPSESSID=sl5iqnbfdua8b3r7gvsheb6cmq; Hm_lpvt_352162eb272db8b3edfe90bede708dff=1580282355',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/news/',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+  '04' => 'WechatIMG305.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-29T15:19:20+08:00 ] 127.0.0.1 GET 127.0.0.1/favicon.ico
+[运行时间：0.030002s] [吞吐率：33.33req/s] [内存消耗：2,091.16kb] [文件加载：106]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'csrftoken=8KF6lJ6Ldbs8NghjFJ2LOUMzU8PQU6EowbbBHtDQ0VCcuhTpC6Hd0MMq5ksumxQy; Hm_lvt_352162eb272db8b3edfe90bede708dff=1578623601,1578718585,1578824067,1580277930; PHPSESSID=sl5iqnbfdua8b3r7gvsheb6cmq; Hm_lpvt_352162eb272db8b3edfe90bede708dff=1580282361',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/news/',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-29T15:21:09+08:00 ] 127.0.0.1 GET 127.0.0.1/
+[运行时间：0.052003s] [吞吐率：19.23req/s] [内存消耗：3,991.02kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'csrftoken=8KF6lJ6Ldbs8NghjFJ2LOUMzU8PQU6EowbbBHtDQ0VCcuhTpC6Hd0MMq5ksumxQy; Hm_lvt_352162eb272db8b3edfe90bede708dff=1578623601,1578718585,1578824067,1580277930; PHPSESSID=sl5iqnbfdua8b3r7gvsheb6cmq; Hm_lpvt_352162eb272db8b3edfe90bede708dff=1580282361',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/news/',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\Users\Administrator\Desktop\website\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\website\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'rotation',
+  4 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_tsinghua_rotation` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_tsinghua_rotation` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_tsinghua_news` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_tsinghua_news` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2020-01-29T15:21:09+08:00 ] 127.0.0.1 GET 127.0.0.1/Huaping_files/fonts.css
+[运行时间：0.045002s] [吞吐率：22.22req/s] [内存消耗：2,091.17kb] [文件加载：106]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Huaping_files',
+    1 => 'fonts.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'csrftoken=8KF6lJ6Ldbs8NghjFJ2LOUMzU8PQU6EowbbBHtDQ0VCcuhTpC6Hd0MMq5ksumxQy; Hm_lvt_352162eb272db8b3edfe90bede708dff=1578623601,1578718585,1578824067,1580277930; PHPSESSID=sl5iqnbfdua8b3r7gvsheb6cmq; Hm_lpvt_352162eb272db8b3edfe90bede708dff=1580282361',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-29T15:21:57+08:00 ] 127.0.0.1 GET 127.0.0.1/Huaping_files/fonts.css
+[运行时间：0.061003s] [吞吐率：16.39req/s] [内存消耗：2,091.17kb] [文件加载：106]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002001s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Huaping_files',
+    1 => 'fonts.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'csrftoken=8KF6lJ6Ldbs8NghjFJ2LOUMzU8PQU6EowbbBHtDQ0VCcuhTpC6Hd0MMq5ksumxQy; Hm_lvt_352162eb272db8b3edfe90bede708dff=1578623601,1578718585,1578824067,1580277930; PHPSESSID=sl5iqnbfdua8b3r7gvsheb6cmq; Hm_lpvt_352162eb272db8b3edfe90bede708dff=1580282470',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-29T15:22:21+08:00 ] 127.0.0.1 GET 127.0.0.1/open-positions/
+[运行时间：0.028002s] [吞吐率：35.71req/s] [内存消耗：2,092.57kb] [文件加载：106]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'open-positions',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'csrftoken=8KF6lJ6Ldbs8NghjFJ2LOUMzU8PQU6EowbbBHtDQ0VCcuhTpC6Hd0MMq5ksumxQy; Hm_lvt_352162eb272db8b3edfe90bede708dff=1578623601,1578718585,1578824067,1580277930; PHPSESSID=sl5iqnbfdua8b3r7gvsheb6cmq; Hm_lpvt_352162eb272db8b3edfe90bede708dff=1580282470',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-29T15:22:24+08:00 ] 127.0.0.1 GET 127.0.0.1/
+[运行时间：0.052003s] [吞吐率：19.23req/s] [内存消耗：3,991.73kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'csrftoken=8KF6lJ6Ldbs8NghjFJ2LOUMzU8PQU6EowbbBHtDQ0VCcuhTpC6Hd0MMq5ksumxQy; Hm_lvt_352162eb272db8b3edfe90bede708dff=1578623601,1578718585,1578824067,1580277930; PHPSESSID=sl5iqnbfdua8b3r7gvsheb6cmq; Hm_lpvt_352162eb272db8b3edfe90bede708dff=1580282544',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/news/',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\Users\Administrator\Desktop\website\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\website\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'rotation',
+  4 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_tsinghua_rotation` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_tsinghua_rotation` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_tsinghua_news` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_tsinghua_news` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2020-01-29T15:22:24+08:00 ] 127.0.0.1 GET 127.0.0.1/Huaping_files/fonts.css
+[运行时间：0.035002s] [吞吐率：28.57req/s] [内存消耗：2,091.17kb] [文件加载：106]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Huaping_files',
+    1 => 'fonts.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'csrftoken=8KF6lJ6Ldbs8NghjFJ2LOUMzU8PQU6EowbbBHtDQ0VCcuhTpC6Hd0MMq5ksumxQy; Hm_lvt_352162eb272db8b3edfe90bede708dff=1578623601,1578718585,1578824067,1580277930; PHPSESSID=sl5iqnbfdua8b3r7gvsheb6cmq; Hm_lpvt_352162eb272db8b3edfe90bede708dff=1580282544',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-29T15:22:52+08:00 ] 127.0.0.1 GET 127.0.0.1/
+[运行时间：0.048003s] [吞吐率：20.83req/s] [内存消耗：3,991.73kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'csrftoken=8KF6lJ6Ldbs8NghjFJ2LOUMzU8PQU6EowbbBHtDQ0VCcuhTpC6Hd0MMq5ksumxQy; Hm_lvt_352162eb272db8b3edfe90bede708dff=1578623601,1578718585,1578824067,1580277930; PHPSESSID=sl5iqnbfdua8b3r7gvsheb6cmq; Hm_lpvt_352162eb272db8b3edfe90bede708dff=1580282545',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/news/',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-user' => '?1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\public/../application/index\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\public/../application/index/lang/zh-cn/index.php
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\Users\Administrator\Desktop\website\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\Administrator\Desktop\website\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'rotation',
+  4 => 'news',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_tsinghua_rotation` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_tsinghua_rotation` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_tsinghua_news` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_tsinghua_news` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2020-01-29T15:22:52+08:00 ] 127.0.0.1 GET 127.0.0.1/Huaping_files/fonts.css
+[运行时间：0.049002s] [吞吐率：20.41req/s] [内存消耗：2,091.17kb] [文件加载：106]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\website\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Huaping_files',
+    1 => 'fonts.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'csrftoken=8KF6lJ6Ldbs8NghjFJ2LOUMzU8PQU6EowbbBHtDQ0VCcuhTpC6Hd0MMq5ksumxQy; Hm_lvt_352162eb272db8b3edfe90bede708dff=1578623601,1578718585,1578824067,1580277930; PHPSESSID=sl5iqnbfdua8b3r7gvsheb6cmq; Hm_lpvt_352162eb272db8b3edfe90bede708dff=1580282545',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.1/',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => 'text/css,*/*;q=0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,52 @@
+{extend name="zhindex/base" /}
+{block name="body"}
+            <!-- #slider-banner -->
+            <div id="home-content" class="site-content">
+                <section id="top-section" class="ak-container">
+                    <div id="welcome-text" class="clearfix">
+                        <h1>
+                  <a href="{$site.domain}/research-interests/">研究兴趣</a></h1>
+                        <div class="welcome-detail welcome-detail-full-width">
+                            <p>&nbsp;</p>
+                            <p>
+                                <a href="/Huaping_files/Xu-HP-ACR-2013.jpeg">
+                                    <img class="wp-image-333 aligncenter" src="/Huaping_files/Xu-HP-ACR-2013.jpeg" alt="Xu HP ACR 2013" width="435" height="275">
+                                </a>
+                            </p>
+                            <p>&nbsp;</p>
+                            <p> <strong>Selenium-containing Polymers:</strong>
+                            </p>
+                            <p>Redox responsive polymers have attracted wide interest for their promising applications in controllable encapsulation and delivery in physiological environments, where the redox process is constantly and widely present. A series
+                                of selenium-containing polymers, including main chain and side chain block copolymers, dendrimers and hyperbranched polymers, have been designed and synthesized for controlled self-assembly and disassembly under various responsive
+                                stimuli, which may act as new biomaterials for controlled drug delivery and enzyme mimics.</p>
+                            <p> <a href="{$site.domain}/research-interests/#more-37" class="more-link">(more…)</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div id="latest-events">
+                        <h1>
+                  <a href="{$site.domain}/category/news/">新闻</a></h1>
+
+                      {foreach name="news" item="vo"}
+                            <div class="event-list clearfix">
+                                <figure class="event-thumbnail">
+                                    <a href="{$site.domain}/congratulations-phd-student-jiahao-xia-received-best-poster-award-in-2019-the-16th-pacific-polymer-conference/">
+                                        <img src="{$vo.image}" >
+                                    </a>
+                                </figure>
+                                <div class="event-detail">
+                                    <h4 class="event-title">
+                          <a href="{$site.domain}/congratulations-phd-student-jiahao-xia-received-best-poster-award-in-2019-the-16th-pacific-polymer-conference/">{$vo.title}</a></h4>
+                                    <div class="event-excerpt">{$vo.create_time|date='Y-m-d',###},{$vo.introduction}</div>
+                                </div>
+                            </div>
+                        {/foreach}
+                    
+
+                    </div>
+                </section>
+            </div>
+  
+            
+    
+{/block}
