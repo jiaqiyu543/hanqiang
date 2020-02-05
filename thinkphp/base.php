@@ -36,7 +36,7 @@ define('IS_WIN', strpos(PHP_OS, 'WIN') !== false);
 
 // 载入Loader类
 require CORE_PATH . 'Loader.php';
-
+var_dump(is_file(ROOT_PATH . '.env'));
 // 加载环境变量配置文件
 if (is_file(ROOT_PATH . '.env')) {
     $env = parse_ini_file(ROOT_PATH . '.env', true);
