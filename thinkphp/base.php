@@ -43,7 +43,7 @@ if (is_file(ROOT_PATH . '.env')) {
 
     foreach ($env as $key => $val) {
         $name = ENV_PREFIX . strtoupper($key);
-
+        
         if (is_array($val)) {
             foreach ($val as $k => $v) {
                 $item = $name . '_' . strtoupper($k);
