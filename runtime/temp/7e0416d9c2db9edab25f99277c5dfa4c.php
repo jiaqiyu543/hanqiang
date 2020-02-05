@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:88:"C:\Users\Administrator\Desktop\website\public/../application/index\view\index\index.html";i:1580793427;s:77:"C:\Users\Administrator\Desktop\website\application\index\view\index\base.html";i:1580731984;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:88:"C:\Users\Administrator\Desktop\website\public/../application/index\view\index\index.html";i:1580908718;s:77:"C:\Users\Administrator\Desktop\website\application\index\view\index\base.html";i:1580885688;}*/ ?>
 <!DOCTYPE html>
 <!-- saved from url=(0018)<?php echo $site['domain']; ?>/ -->
 <html lang="en-US">
@@ -43,6 +43,7 @@
 
 <body class="home blog custom-background right-sidebar" id="by">
     <div id="page" class="site">
+
         <header id="masthead" class="site-header" style="width: 1170px;margin: 0 auto;">
             <div id="top-header">
                 <div class="ak-container">
@@ -106,8 +107,8 @@
 <script type="text/javascript" src="/lunbo/js/jquery.min.js"></script>
 <script src="/lunbo/js/hm.js"></script>
 <script type="text/javascript" src="/lunbo/js/jquery.qrcode.min.js"></script>
-<iframe id="iframe" src="/rotation" frameborder="0" width="100%" height="620px"></iframe>
-<!-- #slider-banner -->
+<iframe id="iframe" src="/rotation" frameborder="0" width="100%" height="440px"></iframe>
+
 <div id="home-content" class="site-content">
     <section id="top-section" class="ak-container">
         <div id="welcome-text" class="clearfix">
