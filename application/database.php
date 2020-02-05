@@ -12,6 +12,7 @@
 
 use think\Env;
 var_dump(Env::get('database.password'));
+var_dump(ROOT_PATH);
 return [
     // 数据库类型
     'type'            => Env::get('database.type', 'mysql'),
