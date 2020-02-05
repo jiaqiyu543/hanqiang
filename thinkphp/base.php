@@ -55,9 +55,6 @@ if (is_file(ROOT_PATH . '.env')) {
     }
 }
 
-use think\Env;
-var_dump(is_file(ROOT_PATH . '.env'));
-var_dump(Env::get('database.password'));
 // 注册自动加载
 \think\Loader::register();
 
