@@ -52,7 +52,7 @@ class Index extends Frontend
         return $this->view->fetch();
     }
 
-    public function members($page=null)
+    public function members()
     {
         $page = 1;
         $New = new TsinghuaNews;
@@ -62,6 +62,12 @@ class Index extends Frontend
         });
         
         $this->assign('data',$page_news);
+        return $this->view->fetch();
+    }
+
+    public function member()
+    {
+        
         return $this->view->fetch();
     }
     
