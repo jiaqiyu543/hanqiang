@@ -76,9 +76,7 @@ caption,
 tbody,
 tfoot,
 thead,
-tr,
-th,
-td {
+{
     border: 0;
     font-family: inherit;
     font-size: 100%;
@@ -134,13 +132,7 @@ ul {
     list-style: none;
 }
 
-table {
-    /* tables still need 'cellspacing="0"' in the markup */
-    border-collapse: separate;
-    border-spacing: 0;
-}
-
-caption,
+*/ caption,
 th,
 td {
     font-weight: normal;
@@ -362,22 +354,13 @@ figure {
     margin: 0;
 }
 
+
+/* 
 table {
     margin: 0 0 15px;
     width: 100%;
     border-collapse: collapse;
-}
-
-th {
-    font-weight: bold;
-    border: 1px solid #CCC;
-    padding: 5px 10px;
-}
-
-td {
-    border: 1px solid #CCC;
-    padding: 5px 10px;
-}
+} */
 
 
 /*--------------------------------------------------------------
