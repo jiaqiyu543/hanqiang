@@ -41,8 +41,6 @@ class Index extends Frontend
 
     public function news($page=null)
     {
-        // News on 14 Jan , 2020
-                   // 29 Dec , 2020
         $page = 1;
         $New = new TsinghuaNews;
         $page_news = Db('tsinghua_news') ->paginate(10,$page)->each(function($item, $key){
@@ -54,6 +52,19 @@ class Index extends Frontend
         return $this->view->fetch();
     }
 
+    public function members($page=null)
+    {
+        $page = 1;
+        $New = new TsinghuaNews;
+        $page_news = Db('tsinghua_news') ->paginate(10,$page)->each(function($item, $key){
+            $item['create_time'] = 'News on ' . date('j  M , Y',$item['create_time']);
+            return $item;
+        });
+        
+        $this->assign('data',$page_news);
+        return $this->view->fetch();
+    }
+    
     public function about_me()
     {
         return $this->view->fetch();

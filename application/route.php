@@ -12,6 +12,7 @@
 use think\Route;
 
 Route::rule('news','index/index/news');
+Route::rule('members','index/index/members');
 Route::rule('about_me','index/index/about_me');
 Route::rule('rotation','index/index/rotation');
 Route::rule('zhindex','index/zhindex/index');
