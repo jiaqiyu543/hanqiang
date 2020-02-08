@@ -3,9 +3,13 @@
     #masthead {
         padding-bottom: 20px;
     }
+    
+    .event-title {
+        margin-top: 5px;
+    }
 </style>
 <div style="width: 1170px;margin: auto;">
-    <div id="secondary-right" class="widget-area right-sidebar sidebar" style="float:left;width:25%;">
+    <div id="secondary-right" class="widget-area right-sidebar sidebar" style="float:left;width:23%;">
         <aside id="latest-events" class="clearfix">
             <h3 class="widget-title">News</h3>
 
@@ -24,19 +28,19 @@
 
                 <div class="event-detail">
                     <h4 class="event-title">
-                        <a href="http://xuslab.com/congratulations-our-paper-has-been-accepted-for-publication-in-advanced-materials/">Congratulations! Our paper has been accepted for publication in Advanced Materials</a>
+                        <a href="http://xuslab.com/congratulations-our-paper-has-been-accepted-for-publication-in-advanced-materials/">Congratulations! Our paper has been accepted for publi</a>
                     </h4>
 
-                    <div class="event-excerpt">
+                    <!-- <div class="event-excerpt">
                         Congratulations on the acceptance of our Communica...
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="event-list clearfix">
 
                 <figure class="event-thumbnail">
                     <a href="http://xuslab.com/happy-year-of-the-mouse/">
-                        <img src="http://xuslab.com/wp-content/uploads/2020/01/New-Year-Card.jpg" alt="Happy Year of the Mouse">
+                        <img src="http://xuslab.com/wp-content/uploads/2020/01/Liu-C-Advanced-Materials-2020.jpg" alt="Happy Year of the Mouse">
 
                         <div class="event-date">
                             <span class="event-date-day">1 Jan</span>
@@ -72,10 +76,10 @@
                     <h4 class="event-title">
                         <a href="http://xuslab.com/scholarships-and-prizes-of-xus-group-in-2019/">Scholarships and prizes of Xu’s group in 2019</a>
                     </h4>
-
+                    <!-- 
                     <div class="event-excerpt">
                         Winners Prizes Tianyu Li Excellent Do...
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <a class="all-events" href="http://xuslab.com/category/news/">View All</a>
@@ -86,9 +90,11 @@
 
     </div>
     <div class="ak-container">
-        <section id="primary" class="content-area" style="width: 70%;">
-            <main id="main" class="site-main" role="main" style="margin-left: 30%;">
+        <section id="primary" class="content-area" style="width: 75%;margin-top: 40px;">
+            <main id="main" class="site-main" role="main" style="margin-left: 10%;">
                 <!-- .page-header -->
+
+
                 {foreach name="data" item="vo"}
                 <article id="post-1606" class="cat-event-list">
                     <header class="entry-header">
@@ -97,7 +103,7 @@
                     <!-- .entry-header -->
                     <div class="entry-content">
                         <div class="cat-event-image">
-                            <img src="{$vo.image}" alt="Happy Year of the Pig">
+                            <img src="http://xuslab.com/wp-content/uploads/2019/12/夏师兄Best-Poster.jpg" alt="Happy Year of the Pig">
                         </div>
                         <div class="cat-event-excerpt ">
                             <div class="event-date-archive">{$vo.create_time}</div>
@@ -108,37 +114,6 @@
                 </article>
 
                 {/foreach}
-
-                <article id="post-1425" class="cat-event-list">
-                    <header class="entry-header">
-                        <h1 class="entry-title"><a href="{$site.domain}/joint-group-meeting-with-huos-group/" rel="bookmark">Joint group meeting with Huo&#8217;s group</a></h1>
-                    </header>
-                    <!-- .entry-header -->
-                    <div class="entry-content">
-                        <div class="cat-event-image">
-                            <img src="{$site.domain}/wp-content/uploads/2018/04/WechatIMG305.jpg" alt="Joint group meeting with Huo&#8217;s group">
-                        </div>
-                        <div class="cat-event-excerpt ">
-                            <div class="event-date-archive">News on 31 Mar , 2018</div>
-                            <div>On Mar. 31st, 2018, Xu's group and Prof. Fengwei Huo's group held a joint group meeting in Nanjing Tech University, Nanjing. At the meeting, five students from each group gave presentations. Students from Xu's group introduced
-                                dynamic chemistry and responsive systems, students from Huo's group introduced metal-organic framework and flexible electronic devices. &nbsp;</div>
-                        </div> <a href="{$site.domain}/joint-group-meeting-with-huos-group/" class="cat-event-more bttn">More</a>
-                    </div>
-                    <!-- .entry-content -->
-                </article>
-                <article id="post-1401" class="cat-event-list">
-                    <header class="entry-header">
-                        <h1 class="entry-title"><a href="{$site.domain}/prof-huaping-xu-enrolled-in-leading-talent-of-national-high-level-personnel-of-special-support-program-people-plan/" rel="bookmark">Prof. Huaping Xu enrolled in Leading Talent of National High-level personnel of special support program (&#8221; people plan &#8220;)</a></h1>
-                    </header>
-                    <!-- .entry-header -->
-                    <div class="entry-content">
-                        <div class="cat-event-excerpt full-width">
-                            <div class="event-date-archive">News on 20 Jan , 2017</div>
-                            <div>Prof. Huaping Xu enrolled in Leading Talent of National High-level personnel of special support program (" people plan ").</div>
-                        </div> <a href="{$site.domain}/prof-huaping-xu-enrolled-in-leading-talent-of-national-high-level-personnel-of-special-support-program-people-plan/" class="cat-event-more bttn">More</a>
-                    </div>
-                    <!-- .entry-content -->
-                </article>
                 <nav class="navigation paging-navigation" role="navigation">
                     <h1 class="screen-reader-text">Posts navigation</h1>
                     <div class="nav-links">

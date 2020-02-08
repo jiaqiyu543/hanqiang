@@ -65,13 +65,23 @@ class Index extends Frontend
         return $this->view->fetch();
     }
 
-    public function member()
+    public function member($id)
     {
         
         return $this->view->fetch();
     }
     
+    public function facilities()
+    {
+        return $this->view->fetch();
+    }
+    
     public function about_me()
+    {
+        return $this->view->fetch();
+    }
+
+    public function publications()
     {
         return $this->view->fetch();
     }
