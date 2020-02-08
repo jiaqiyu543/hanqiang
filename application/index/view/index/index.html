@@ -4,6 +4,21 @@
 <script src="/lunbo/js/hm.js"></script>
 <script type="text/javascript" src="/lunbo/js/jquery.qrcode.min.js"></script>
 <iframe id="iframe" src="/rotation" frameborder="0" width="100%" height="425px"></iframe>
+<style>
+    .event-thumbnail img {
+        height: 100px;
+        width: 136px;
+    }
+    
+    .event-detail h4 {
+        margin-top: 0px;
+    }
+    
+    .event-excerpt {
+        text-align: justify;
+    }
+</style>
+
 
 <div id="home-content" class="site-content">
     <section id="top-section" class="ak-container">
@@ -13,13 +28,15 @@
         ">
                 <a href="{$site.domain}/research-interests/">Research Interests</a></h1>
             <div class="welcome-detail welcome-detail-full-width">
-                <p>&nbsp;</p>
-                <p>
+
+                <p style="margin-top: 0px;">
                     <a href="/Huaping_files/Xu-HP-ACR-2013.jpeg">
-                        <img class="wp-image-333 aligncenter" src="/Huaping_files/Xu-HP-ACR-2013.jpeg" alt="Xu HP ACR 2013" width="435" height="275">
+                        <img class="wp-image-333 aligncenter" src="/Huaping_files/Xu-HP-ACR-2013.jpeg" alt="Xu HP ACR 2013" style="
+                        width: 625px;
+                        height: 275px;
+                    ">
                     </a>
                 </p>
-                <p>&nbsp;</p>
                 <p> <strong>Selenium-containing Polymers:</strong>
                 </p>
                 <p>Redox responsive polymers have attracted wide interest for their promising applications in controllable encapsulation and delivery in physiological environments, where the redox process is constantly and widely present. A series of selenium-containing
@@ -30,32 +47,63 @@
             </div>
         </div>
         <div id="latest-events">
-            <h1 style="
-            margin-top: 0px;
-        ">
-                <a href="{$site.domain}/category/news/">News</a></h1>
-
-            {foreach name="news" item="vo"}
-            <div class="event-list clearfix">
-                <figure class="event-thumbnail">
-                    <a href="{$site.domain}/congratulations-phd-student-jiahao-xia-received-best-poster-award-in-2019-the-16th-pacific-polymer-conference/">
-                        <img src="{$vo.image}">
-                    </a>
-                </figure>
-                <div class="event-detail">
-                    <h4 class="event-title">
-                        <a href="{$site.domain}/congratulations-phd-student-jiahao-xia-received-best-poster-award-in-2019-the-16th-pacific-polymer-conference/">{$vo.title}</a></h4>
-                    <!-- <div class="event-excerpt">{$vo.create_time|date='Y-m-d',###},{$vo.introduction}</div> -->
-                    <div class="event-excerpt">{$vo.introduction}</div>
+            <h1 style="margin-top: 0px;"><a href="{$site.domain}/category/news/">News</a></h1>
+            <div id="colee" style="overflow:hidden;height:525px;">
+                <div id="colee1">
+                    {foreach name="news" item="vo"}
+                    <div class="event-list clearfix">
+                        <figure class="event-thumbnail">
+                            <a href="{$site.domain}/congratulations-phd-student-jiahao-xia-received-best-poster-award-in-2019-the-16th-pacific-polymer-conference/">
+                                <img src="{$vo.image}">
+                            </a>
+                        </figure>
+                        <div class="event-detail">
+                            <h4 class="event-title">
+                                <a href="{$site.domain}/congratulations-phd-student-jiahao-xia-received-best-poster-award-in-2019-the-16th-pacific-polymer-conference/">{$vo.title}</a></h4>
+                            <!-- <div class="event-excerpt">{$vo.create_time|date='Y-m-d',###},{$vo.introduction}</div> -->
+                            <div class="event-excerpt">{$vo.introduction}</div>
+                        </div>
+                    </div>
+                    {/foreach}
+                    <p></p>
                 </div>
+                <div id="colee2"></div>
             </div>
-            {/foreach}
 
 
         </div>
     </section>
 </div>
+<script>
+    //速度设置
+    var speed = 100;
+    var colee2 = document.getElementById("colee2");
+    var colee1 = document.getElementById("colee1");
+    var colee = document.getElementById("colee");
+    colee2.innerHTML = colee1.innerHTML; //克隆colee1为colee2
+    function Marquee1() {
+        //当滚动至colee1与colee2交界时
+        if (colee2.offsetTop - colee.scrollTop <= 0) { 
+            colee.scrollTop -= colee1.offsetHeight; //colee跳到最顶端
+             
+        } else { 
+            colee.scrollTop++
+                // console.log('colee2.offsetTop', colee2.offsetTop);
+                // console.log('colee.scrollTop', colee.scrollTop);
+        }
+    }
+    var MyMar1 = setInterval(Marquee1, speed) //设置定时器
 
+
+    //鼠标移上时清除定时器达到滚动停止的目的
+    colee.onmouseover = function() {
+            clearInterval(MyMar1)
+        }
+        //鼠标移开时重设定时器
+    colee.onmouseout = function() {
+        MyMar1 = setInterval(Marquee1, speed)
+    }
+</script>
 
 <script type="text/javascript" src="/lunbo/js/jquery.min.js"></script>
 <script type="text/javascript" src="/lunbo/js/Cooldog.js"></script>

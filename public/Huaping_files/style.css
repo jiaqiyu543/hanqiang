@@ -196,10 +196,6 @@ h6 {
     font-weight: 300;
 }
 
-p {
-    margin-bottom: 20px;
-}
-
 b,
 strong {
     font-weight: bold;
@@ -1395,7 +1391,7 @@ Top Section
 
 #top-section h1 {
     text-transform: uppercase;
-    margin-bottom: 25px;
+    margin-bottom: 12.5px;
 }
 
 #top-section h1 a {

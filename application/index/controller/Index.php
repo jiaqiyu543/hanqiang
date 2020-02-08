@@ -28,7 +28,7 @@ class Index extends Frontend
     public function index()
     {
         
-        $news =array_slice(TsinghuaNews::all(),0,3);
+        $news =array_slice(TsinghuaNews::all(),0,4);
         foreach ($news as $key => $value) {
             if ( mb_strlen($news[$key]['introduction']) > 100 ) {
                 $news[$key]['introduction'] = mb_substr($news[$key]['introduction'],0,100,"utf-8") . '...';
