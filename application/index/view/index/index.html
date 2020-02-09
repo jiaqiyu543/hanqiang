@@ -7,15 +7,18 @@
 <style>
     .event-thumbnail img {
         height: 100px;
-        width: 136px;
+        width: 150px;
     }
     
-    .event-detail h4 {
+    .event-detail h3 {
         margin-top: 0px;
     }
     
     .event-excerpt {
         text-align: justify;
+        font-size: 13px;
+        height: 70px;
+        overflow: hidden;
     }
 </style>
 <div id="home-content" class="site-content">
@@ -24,7 +27,7 @@
             <h1 style="
             margin-top: 0px;
         ">
-                <a href="{$site.domain}/research-interests/">Research Interests</a></h1>
+                <a href="{$site.domain}/research/">Research Interests</a></h1>
 
 
             <div class="swiper-wrapper">
@@ -40,10 +43,10 @@
                     </p>
                     <p> <strong>Selenium-containing Polymers:</strong>
                     </p>
-                    <p>Redox responsive polymers have attracted wide interest for their promising applications in controllable encapsulation and delivery in physiological environments, where the redox process is constantly and widely present. A series of
+                    <p style="margin-bottom: 0;height: 184.8px;overflow: hidden;">Redox responsive polymers have attracted wide interest for their promising applications in controllable encapsulation and delivery in physiological environments, where the redox process is constantly and widely present. A series of
                         selenium-containing polymers, including main chain and side chain block copolymers, dendrimers and hyperbranched polymers, have been designed and synthesized for controlled self-assembly and disassembly under various responsive
                         stimuli, which may act as new biomaterials for controlled drug delivery and enzyme mimics.</p>
-                    <p> <a href="{$site.domain}/research-interests/#more-37" class="more-link">(more…)</a>
+                    <p style="margin: 0;"><a href="{$site.domain}/research" class="more-link">(more…)</a>
                     </p>
                 </div>
 
@@ -56,7 +59,7 @@
 
         </div>
         <div id="latest-events">
-            <h1 style="margin-top: 0px;"><a href="{$site.domain}/category/news/">News</a></h1>
+            <h1 style="margin-top: 0px;"><a href="{$site.domain}/news/">News</a></h1>
             <div id="colee" style="overflow:hidden;height:525px;">
                 <div id="colee1">
                     {foreach name="news" item="vo"}
@@ -67,10 +70,10 @@
                             </a>
                         </figure>
                         <div class="event-detail">
-                            <h4 class="event-title">
-                                <a href="{$site.domain}/congratulations-phd-student-jiahao-xia-received-best-poster-award-in-2019-the-16th-pacific-polymer-conference/">{$vo.title}</a></h4>
+                            <h3 class="event-title" style="margin-bottom: 0px;">
+                                <a href="{$site.domain}/congratulations-phd-student-jiahao-xia-received-best-poster-award-in-2019-the-16th-pacific-polymer-conference/">{$vo.title}</a></h3>
                             <!-- <div class="event-excerpt">{$vo.create_time|date='Y-m-d',###},{$vo.introduction}</div> -->
-                            <div class="event-excerpt">{$vo.introduction}</div>
+                            <div class="event-excerpt">{$vo.introduction}123534564765876987656435435123534564765876987656435435</div>
                         </div>
                     </div>
                     {/foreach}
@@ -98,10 +101,10 @@
         </p>
         <p> <strong>Selenium-containing Polymers:</strong>
         </p>
-        <p>Redox responsive polymers have attracted wide interest for their promising applications in controllable encapsulation and delivery in physiological environments, where the redox process is constantly and widely present. A series of selenium-containing
+        <p style="margin-bottom: 0;height: 184.8px;overflow: hidden;">Redox responsive polymers have attracted wide interest for their promising applications in controllable encapsulation and delivery in physiological environments, where the redox process is constantly and widely present. A series of selenium-containing
             polymers, including main chain and side chain block copolymers, dendrimers and hyperbranched polymers, have been designed and synthesized for controlled self-assembly and disassembly under various responsive stimuli, which may act as new biomaterials
             for controlled drug delivery and enzyme mimics.</p>
-        <p> <a href="{$site.domain}/research-interests/#more-37" class="more-link">(more…)</a>
+        <p style="margin: 0;"> <a href="{$site.domain}/research" class="more-link">(more…)</a>
         </p>
     </div>
     <div class="welcome-detail welcome-detail-full-width dis">
@@ -116,10 +119,10 @@
         </p>
         <p> <strong>Selenium-containing Polymers:</strong>
         </p>
-        <p>Redox responsive polymers have attracted wide interest for their promising applications in controllable encapsulation and delivery in physiological environments, where the redox process is constantly and widely present. A series of selenium-containing
+        <p style="margin-bottom: 0;height: 184.8px;overflow: hidden;">Redox responsive polymers have attracted wide interest for their promising applications in controllable encapsulation and delivery in physiological environments, where the redox process is constantly and widely present. A series of selenium-containing
             polymers, ir81249827409248032580925739503259328498742 block copolymers, dendrimers and hyperbranched polymers, have been designed and synthesized for controlled self-assembly and disassembly under various responsive stimuli, which may act
             as new biomaterials for controlled drug delivery and enzyme mimics.</p>
-        <p> <a href="{$site.domain}/research-interests/#more-37" class="more-link">(more…)</a>
+        <p style="margin: 0;"> <a href="{$site.domain}/research" class="more-link">(more…)</a>
         </p>
     </div>
 
@@ -148,7 +151,7 @@
     setInterval(function() {
         test()
 
-    }, 5000)
+    }, 10000)
 </script>
 
 
