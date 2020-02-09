@@ -18,6 +18,10 @@ Route::rule('facilities','index/index/facilities');
 Route::rule('member/:id','index/index/member');
 Route::rule('about_me','index/index/about_me');
 Route::rule('rotation','index/index/rotation');
+Route::rule('research','index/index/research');
+Route::rule('gallery','index/index/gallery');
+Route::rule('contact_us','index/index/contact_us');
+Route::rule('links','index/index/links');
 
 
 Route::rule('zhindex','index/zhindex/index');

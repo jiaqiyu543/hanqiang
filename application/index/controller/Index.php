@@ -65,6 +65,17 @@ class Index extends Frontend
         return $this->view->fetch();
     }
 
+    public function research()
+    {
+        return $this->view->fetch();
+    }
+
+    public function links()
+    {
+        return $this->view->fetch();
+    }
+
+
     public function member($id)
     {
         
@@ -76,10 +87,16 @@ class Index extends Frontend
         return $this->view->fetch();
     }
     
-    public function about_me()
+    public function contact_us()
+    {
+        return $this->view->fetch('about_me');
+    }
+
+    public function gallery()
     {
         return $this->view->fetch();
     }
+
 
     public function publications()
     {

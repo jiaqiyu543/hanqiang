@@ -18,8 +18,6 @@
         text-align: justify;
     }
 </style>
-
-
 <div id="home-content" class="site-content">
     <section id="top-section" class="ak-container">
         <div id="welcome-text" class="clearfix">
@@ -27,24 +25,35 @@
             margin-top: 0px;
         ">
                 <a href="{$site.domain}/research-interests/">Research Interests</a></h1>
-            <div class="welcome-detail welcome-detail-full-width">
 
-                <p style="margin-top: 0px;">
-                    <a href="/Huaping_files/Xu-HP-ACR-2013.jpeg">
-                        <img class="wp-image-333 aligncenter" src="/Huaping_files/Xu-HP-ACR-2013.jpeg" alt="Xu HP ACR 2013" style="
-                        width: 625px;
-                        height: 275px;
-                    ">
-                    </a>
-                </p>
-                <p> <strong>Selenium-containing Polymers:</strong>
-                </p>
-                <p>Redox responsive polymers have attracted wide interest for their promising applications in controllable encapsulation and delivery in physiological environments, where the redox process is constantly and widely present. A series of selenium-containing
-                    polymers, including main chain and side chain block copolymers, dendrimers and hyperbranched polymers, have been designed and synthesized for controlled self-assembly and disassembly under various responsive stimuli, which may act
-                    as new biomaterials for controlled drug delivery and enzyme mimics.</p>
-                <p> <a href="{$site.domain}/research-interests/#more-37" class="more-link">(more…)</a>
-                </p>
+
+            <div class="swiper-wrapper">
+                <div class="welcome-detail welcome-detail-full-width">
+
+                    <p style="margin-top: 0px;">
+                        <a href="/Huaping_files/Xu-HP-ACR-2013.jpeg">
+                            <img class="wp-image-333 aligncenter" src="https://dss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=194233767,3078416653&fm=26&gp=0.jpg" alt="Xu HP ACR 2013" style="
+                    width: 625px;
+                    height: 275px;
+                ">
+                        </a>
+                    </p>
+                    <p> <strong>Selenium-containing Polymers:</strong>
+                    </p>
+                    <p>Redox responsive polymers have attracted wide interest for their promising applications in controllable encapsulation and delivery in physiological environments, where the redox process is constantly and widely present. A series of
+                        selenium-containing polymers, including main chain and side chain block copolymers, dendrimers and hyperbranched polymers, have been designed and synthesized for controlled self-assembly and disassembly under various responsive
+                        stimuli, which may act as new biomaterials for controlled drug delivery and enzyme mimics.</p>
+                    <p> <a href="{$site.domain}/research-interests/#more-37" class="more-link">(more…)</a>
+                    </p>
+                </div>
+
+
+
+
+
             </div>
+
+
         </div>
         <div id="latest-events">
             <h1 style="margin-top: 0px;"><a href="{$site.domain}/category/news/">News</a></h1>
@@ -54,7 +63,7 @@
                     <div class="event-list clearfix">
                         <figure class="event-thumbnail">
                             <a href="{$site.domain}/congratulations-phd-student-jiahao-xia-received-best-poster-award-in-2019-the-16th-pacific-polymer-conference/">
-                                <img src="{$vo.image}">
+                                <img src="https://dss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=194233767,3078416653&fm=26&gp=0.jpg">
                             </a>
                         </figure>
                         <div class="event-detail">
@@ -74,6 +83,75 @@
         </div>
     </section>
 </div>
+
+<div style="display:none;">
+
+    <div class="welcome-detail welcome-detail-full-width dis">
+
+        <p style="margin-top: 0px;">
+            <a href="/Huaping_files/Xu-HP-ACR-2013.jpeg">
+                <img class="wp-image-333 aligncenter" src="https://dss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=194233767,3078416653&fm=26&gp=0.jpg" alt="Xu HP ACR 2013" style="
+        width: 625px;
+        height: 275px;
+    ">
+            </a>
+        </p>
+        <p> <strong>Selenium-containing Polymers:</strong>
+        </p>
+        <p>Redox responsive polymers have attracted wide interest for their promising applications in controllable encapsulation and delivery in physiological environments, where the redox process is constantly and widely present. A series of selenium-containing
+            polymers, including main chain and side chain block copolymers, dendrimers and hyperbranched polymers, have been designed and synthesized for controlled self-assembly and disassembly under various responsive stimuli, which may act as new biomaterials
+            for controlled drug delivery and enzyme mimics.</p>
+        <p> <a href="{$site.domain}/research-interests/#more-37" class="more-link">(more…)</a>
+        </p>
+    </div>
+    <div class="welcome-detail welcome-detail-full-width dis">
+
+        <p style="margin-top: 0px;">
+            <a href="/Huaping_files/Xu-HP-ACR-2013.jpeg">
+                <img class="wp-image-333 aligncenter" src="/Huaping_files/Xu-HP-ACR-2013.jpeg" alt="Xu HP ACR 2013" style="
+        width: 625px;
+        height: 275px;
+    ">
+            </a>
+        </p>
+        <p> <strong>Selenium-containing Polymers:</strong>
+        </p>
+        <p>Redox responsive polymers have attracted wide interest for their promising applications in controllable encapsulation and delivery in physiological environments, where the redox process is constantly and widely present. A series of selenium-containing
+            polymers, ir81249827409248032580925739503259328498742 block copolymers, dendrimers and hyperbranched polymers, have been designed and synthesized for controlled self-assembly and disassembly under various responsive stimuli, which may act
+            as new biomaterials for controlled drug delivery and enzyme mimics.</p>
+        <p> <a href="{$site.domain}/research-interests/#more-37" class="more-link">(more…)</a>
+        </p>
+    </div>
+
+</div>
+
+<script>
+    data = $(".dis");
+
+    len = data.length;
+    n = 1;
+    console.log(data);
+
+    function test() {
+        console.log('test', n);
+        if (n < len) {
+            $(".swiper-wrapper").html(data[n]);
+            n++;
+        } else {
+            n = 0;
+            $(".swiper-wrapper").html(data[n]);
+        }
+
+    }
+
+
+    setInterval(function() {
+        test()
+
+    }, 5000)
+</script>
+
+
 <script>
     //速度设置
     var speed = 100;
