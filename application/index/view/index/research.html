@@ -61,6 +61,25 @@
         margin-top: 0;
     }
 </style>
+<script language="javascript">
+    window.onscroll = function(e) {
+
+        var scrolltop = document.documentElement.scrollTop || document.body.scrollTop;
+        node = document.getElementById('top');
+        if (scrolltop <= 200) {
+            node.style.position = '';
+
+
+        } else {
+            node.style.position = 'fixed';
+            node.style.top = '0px';
+            node.style['z-index'] = '9999';
+        }
+        // var box = document.getElementById('box');
+        // box.style.top = scrolltop + 'px';
+        console.log(scrolltop);
+    }
+</script>
 <div style="width: 1170px;margin: auto;">
     <div id="top">
         <div id="secondary-right" class="widget-area right-sidebar sidebar" style="float:left;width:285px;">

@@ -2052,8 +2052,10 @@ Main Content
     float: none;
 }
 
-.both-sidebar #primary {
-    width: 72%;
+#primary {
+    width: 75%;
+    margin-bottom: 30px;
+    margin-top: 11px;
     float: right;
 }
 
@@ -2091,6 +2093,14 @@ Sidebars
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+#top {
+    width: 285px;
+}
+
+.sidebar ul li a {
+    font-size: 18px;
 }
 
 .sidebar ul li {
