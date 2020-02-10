@@ -1095,8 +1095,6 @@ body.boxed-layout {
 }
 
 #masthead .site-branding img {
-    height: auto !important;
-    width: auto !important;
     display: block;
 }
 
@@ -1381,10 +1379,8 @@ Top Section
 --------------------------------------------------------------*/
 
 #top-section {
-    /* margin-top: 30px; */
-    /*margin-bottom: 40px;
-    padding-bottom: 40px;*/
-    border-bottom: 1px solid #f2f2f2;
+    margin-bottom: 11px;
+    s border-bottom: 1px solid #f2f2f2;
 }
 
 #top-section h1 {
