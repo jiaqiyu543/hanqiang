@@ -20,14 +20,26 @@
         height: 70px;
         overflow: hidden;
     }
+    
+    #top-section h1 a {
+        color: #0b0b0b;
+    }
+    
+    .bttn {
+        background: #e064f5;
+        font-size: 13px;
+        font-size: 1.2rem;
+    }
 </style>
 <div id="home-content" class="site-content">
     <section id="top-section" class="ak-container">
         <div id="welcome-text" class="clearfix">
-            <h1 style="
-            margin-top: 0px;
-        ">
-                <a href="{$site.domain}/research/">Research Interests</a></h1>
+            <h1 style="margin-top: 0px;">
+                RESEARCH INTERESTS
+
+                <a href="#" class=" bttn" style="margin-left: 250px;padding: 4px 4px;
+                font-size: 10px;">More+</a>
+            </h1>
 
 
             <div class="swiper-wrapper">
@@ -50,8 +62,7 @@
                         of unicompartmental and multicompartmental vesicles based on microfluidics are summarized. Furthermore, the engineering of droplet‐based and vesicle‐based artificial cells by microfluidics is also reviewed. Moreover, the artificial
                         cells applied for imitating cell behavior and acting as bioreactors for synthetic biology are highlighted. Finally, the current challenges and future trends in microfluidic‐based artificial cells are discussed. This review should
                         be helpful for researchers in the fields of microfluidics, biomaterial fabrication, and synthetic biology.</p>
-                    <p style="margin: 0;"><a href="{$site.domain}/research" class="more-link">(more…)</a>
-                    </p>
+
                 </div>
 
 
@@ -63,7 +74,10 @@
 
         </div>
         <div id="latest-events">
-            <h1 style="margin-top: 0px;"><a href="{$site.domain}/news/">News</a></h1>
+            <h1 style="margin-top: 0px;">News
+                <a href="/" class="cat-event-more bttn" style="margin-left: 350px;font-size: 10px;
+                padding: 4px 4px;">More+</a>
+            </h1>
             <div id="colee" style="overflow:hidden;height:500px;">
                 <div id="colee1">
                     {foreach name="news" item="vo"}
@@ -77,7 +91,12 @@
                             <h3 class="event-title" style="margin-bottom: 0px;">
                                 <a href="{$site.domain}/congratulations-phd-student-jiahao-xia-received-best-poster-award-in-2019-the-16th-pacific-polymer-conference/">{$vo.title}</a></h3>
                             <!-- <div class="event-excerpt">{$vo.create_time|date='Y-m-d',###},{$vo.introduction}</div> -->
-                            <div class="event-excerpt">Fabrication of artificial</div>
+                            <div class="event-excerpt">Fabrication of artificial biomimetic materials has attracted abundant attention. As one of the subcategories of biomimetic materials, artificial cells are highly significant for multiple disciplines and their synthesis has
+                                been intensively pursued. In order to manufacture robust “alive” artificial cells with high throughput, easy operation, and precise control, flexible microfluidic techniques are widely utilized. Herein, recent advances
+                                in microfluidic‐based methods for the synthesis of droplets, vesicles, and artificial cells are summarized. First, the advances of droplet fabrication and manipulation on the T‐junction, flow‐focusing, and coflowing microfluidic
+                                devices are discussed. Then, the formation of unicompartmental and multicompartmental vesicles based on microfluidics are summarized. Furthermore, the engineering of droplet‐based and vesicle‐based artificial cells by microfluidics
+                                is also reviewed. Moreover, the artificial cells applied for imitating cell behavior and acting as bioreactors for synthetic biology are highlighted. Finally, the current challenges and future trends in microfluidic‐based
+                                artificial cells are discussed. This review should be helpful for researchers in the fields of microfluidics, biomaterial fabrication, and synthetic biology.</div>
                         </div>
                     </div>
                     {/foreach}
@@ -86,7 +105,6 @@
                 <div id="colee2"></div>
             </div>
 
-            <p style="margin: 0;"> <a href="{$site.domain}/news" class="more-link">(more…)</a>
             </p>
 
 
@@ -108,11 +126,12 @@
         </p>
         <p> <strong>Selenium-containing Polymers:</strong>
         </p>
-        <p style="margin-bottom: 0;height: 165px;overflow: hidden;">Redox responsive polymers have attracted wide interest for their promising applications in controllable encapsulation and delivery in physiological environments, where the redox process is constantly and widely present. A series of selenium-containing
-            polymers, including main chain and side chain block copolymers, dendrimers and hyperbranched polymers, have been designed and synthesized for controlled self-assembly and disassembly under various responsive stimuli, which may act as new biomaterials
-            for controlled drug delivery and enzyme mimics.</p>
-        <p style="margin: 0;"> <a href="{$site.domain}/research" class="more-link">(more…)</a>
-        </p>
+        <p style="margin-bottom: 0;height: 165px;overflow: hidden;">Fabrication of artificial biomimetic materials has attracted abundant attention. As one of the subcategories of biomimetic materials, artificial cells are highly significant for multiple disciplines and their synthesis has been intensively pursued.
+            In order to manufacture robust “alive” artificial cells with high throughput, easy operation, and precise control, flexible microfluidic techniques are widely utilized. Herein, recent advances in microfluidic‐based methods for the synthesis
+            of droplets, vesicles, and artificial cells are summarized. First, the advances of droplet fabrication and manipulation on the T‐junction, flow‐focusing, and coflowing microfluidic devices are discussed. Then, the formation of unicompartmental
+            and multicompartmental vesicles based on microfluidics are summarized. Furthermore, the engineering of droplet‐based and vesicle‐based artificial cells by microfluidics is also reviewed. Moreover, the artificial cells applied for imitating
+            cell behavior and acting as bioreactors for synthetic biology are highlighted. Finally, the current challenges and future trends in microfluidic‐based artificial cells are discussed. This review should be helpful for researchers in the fields
+            of microfluidics, biomaterial fabrication, and synthetic biology.</p>
     </div>
     <div class="welcome-detail welcome-detail-full-width dis">
 
@@ -126,11 +145,12 @@
         </p>
         <p> <strong>Selenium-containing Polymers:</strong>
         </p>
-        <p style="margin-bottom: 0;height: 165px;overflow: hidden;">Redox responsive polymers have attracted wide interest for their promising applications in controllable encapsulation and delivery in physiological environments, where the redox process is constantly and widely present. A series of selenium-containing
-            polymers, ir81249827409248032580925739503259328498742 block copolymers, dendrimers and hyperbranched polymers, have been designed and synthesized for controlled self-assembly and disassembly under various responsive stimuli, which may act
-            as new biomaterials for controlled drug delivery and enzyme mimics.</p>
-        <p style="margin: 0;"> <a href="{$site.domain}/research" class="more-link">(more…)</a>
-        </p>
+        <p style="margin-bottom: 0;height: 165px;overflow: hidden;">Fabrication of artificial biomimetic materials has attracted abundant attention. As one of the subcategories of biomimetic materials, artificial cells are highly significant for multiple disciplines and their synthesis has been intensively pursued.
+            In order to manufacture robust “alive” artificial cells with high throughput, easy operation, and precise control, flexible microfluidic techniques are widely utilized. Herein, recent advances in microfluidic‐based methods for the synthesis
+            of droplets, vesicles, and artificial cells are summarized. First, the advances of droplet fabrication and manipulation on the T‐junction, flow‐focusing, and coflowing microfluidic devices are discussed. Then, the formation of unicompartmental
+            and multicompartmental vesicles based on microfluidics are summarized. Furthermore, the engineering of droplet‐based and vesicle‐based artificial cells by microfluidics is also reviewed. Moreover, the artificial cells applied for imitating
+            cell behavior and acting as bioreactors for synthetic biology are highlighted. Finally, the current challenges and future trends in microfluidic‐based artificial cells are discussed. This review should be helpful for researchers in the fields
+            of microfluidics, biomaterial fabrication, and synthetic biology.</p>
     </div>
 
 </div>

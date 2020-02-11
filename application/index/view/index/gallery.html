@@ -45,36 +45,6 @@
         background-color: #060;
     }
 </style>
-<script>
-    //速度设置
-    var speed = 100;
-    var colee2 = document.getElementById("colee2");
-    var colee1 = document.getElementById("colee1");
-    var colee = document.getElementById("colee");
-    colee2.innerHTML = colee1.innerHTML; //克隆colee1为colee2
-    function Marquee1() {
-        //当滚动至colee1与colee2交界时
-        if (colee2.offsetTop - colee.scrollTop <= 0) { 
-            colee.scrollTop -= colee1.offsetHeight; //colee跳到最顶端
-             
-        } else { 
-            colee.scrollTop++
-                // console.log('colee2.offsetTop', colee2.offsetTop);
-                // console.log('colee.scrollTop', colee.scrollTop);
-        }
-    }
-    var MyMar1 = setInterval(Marquee1, speed) //设置定时器
-
-
-    //鼠标移上时清除定时器达到滚动停止的目的
-    colee.onmouseover = function() {
-            clearInterval(MyMar1)
-        }
-        //鼠标移开时重设定时器
-    colee.onmouseout = function() {
-        MyMar1 = setInterval(Marquee1, speed)
-    }
-</script>
 
 <div style="width: 1170px;margin: auto;">
 
@@ -120,7 +90,7 @@
 
     <div class="ak-container">
         <section id="primary" class="content-area" style="margin-top: 11px;">
-            <main id="main" class="site-main" role="main" style="float: right;margin:0 4%;">
+            <main id="main" class="site-main" role="main" style="float: right;">
 
                 <style>
                     .cheshi1 {
@@ -152,7 +122,7 @@
                         margin: 5px auto;
                         overflow: hidden;
                         border: 1px dashed #CCC;
-                        width: 800px;
+                        width: 877px;
                     }
                     
                     .scrollBox .con1,
@@ -167,14 +137,14 @@
                     }
                     
                     a img {
-                        height: 300px;
+                        height: 250px;
                     }
                 </style>
 
                 <div>
                     <h3 style="margin-bottom: 5px;">标题</h3>
                     <a href="">
-                        <div class="event-excerpt" style="height: 100px;overflow: hidden;text-align: justify;">
+                        <div class="event-excerpt" style="height: 50px;overflow: hidden;text-align: justify;">
                             Fabrication of artificial biomimetic materials has attracted abundant attention. As one of the subcategories of biomimetic materials, artificial cells are highly significant for multiple disciplines and their synthesis has been intensively pursued. In
                             order to manufacture robust “alive” artificial cells with high throughput, easy operation, and precise control, flexible microfluidic techniques are widely utilized. Herein, recent advances in microfluidic‐based methods for
                             the synthesis of droplets, vesicles, and artificial cells are summarized. First, the advances of droplet fabrication and manipulation on the T‐junction, flow‐focusing, and coflowing microfluidic devices are discussed. Then,
@@ -196,10 +166,11 @@
                     </div>
                 </div>
                 <hr>
+
                 <div>
                     <h3 style="margin-bottom: 5px;">标题</h3>
                     <a href="">
-                        <div class="event-excerpt" style="height: 100px;overflow: hidden;text-align: justify;">
+                        <div class="event-excerpt" style="height: 50px;overflow: hidden;text-align: justify;">
                             Fabrication of artificial biomimetic materials has attracted abundant attention. As one of the subcategories of biomimetic materials, artificial cells are highly significant for multiple disciplines and their synthesis has been intensively pursued. In
                             order to manufacture robust “alive” artificial cells with high throughput, easy operation, and precise control, flexible microfluidic techniques are widely utilized. Herein, recent advances in microfluidic‐based methods for
                             the synthesis of droplets, vesicles, and artificial cells are summarized. First, the advances of droplet fabrication and manipulation on the T‐junction, flow‐focusing, and coflowing microfluidic devices are discussed. Then,
@@ -221,81 +192,117 @@
                     </div>
                 </div>
                 <hr>
-                <div>
-                    <h3 style="margin-bottom: 5px;">标题</h3>
-                    <a href="">
-                        <div class="event-excerpt" style="height: 100px;overflow: hidden;text-align: justify;">
-                            Fabrication of artificial biomimetic materials has attracted abundant attention. As one of the subcategories of biomimetic materials, artificial cells are highly significant for multiple disciplines and their synthesis has been intensively pursued. In
-                            order to manufacture robust “alive” artificial cells with high throughput, easy operation, and precise control, flexible microfluidic techniques are widely utilized. Herein, recent advances in microfluidic‐based methods for
-                            the synthesis of droplets, vesicles, and artificial cells are summarized. First, the advances of droplet fabrication and manipulation on the T‐junction, flow‐focusing, and coflowing microfluidic devices are discussed. Then,
-                            the formation of unicompartmental and multicompartmental vesicles based on microfluidics are summarized. Furthermore, the engineering of droplet‐based and vesicle‐based artificial cells by microfluidics is also reviewed. Moreover,
-                            the artificial cells applied for imitating cell behavior and acting as bioreactors for synthetic biology are highlighted. Finally, the current challenges and future trends in microfluidic‐based artificial cells are discussed.
-                            This review should be helpful for researchers in the fields of microfluidics, biomaterial fabrication, and synthetic biology.</div>
-                    </a>
-
-                    <div class="scrollBox">
-                        <div id="innerdiv">
-                            <div class="con1">
-                                <a href="#"><img src="/Huaping_files/event-fallback.jpg"></a>
-                                <a href="#"><img src="/Huaping_files/event-fallback.jpg"></a>
-                                <a href="#"><img src="/Huaping_files/event-fallback.jpg"></a>
-                                <a href="#"><img src="/Huaping_files/event-fallback.jpg"></a>
-                            </div>
-                            <div class="con2"></div>
-                        </div>
-                    </div>
-                </div>
 
             </main>
             <!-- #main -->
         </section>
 
+
+        <script>
+            //速度设置
+            var speed = 100;
+            var colee2 = document.getElementById("colee2");
+            var colee1 = document.getElementById("colee1");
+            var colee = document.getElementById("colee");
+            colee2.innerHTML = colee1.innerHTML; //克隆colee1为colee2
+            function Marquee1() {
+                //当滚动至colee1与colee2交界时
+                if (colee2.offsetTop - colee.scrollTop <= 0) { 
+                    colee.scrollTop -= colee1.offsetHeight; //colee跳到最顶端
+                     
+                } else { 
+                    colee.scrollTop++
+                        // console.log('colee2.offsetTop', colee2.offsetTop);
+                        // console.log('colee.scrollTop', colee.scrollTop);
+                }
+            }
+            var MyMar1 = setInterval(Marquee1, speed) //设置定时器
+
+
+            //鼠标移上时清除定时器达到滚动停止的目的
+            colee.onmouseover = function() {
+                    clearInterval(MyMar1)
+                }
+                //鼠标移开时重设定时器
+            colee.onmouseout = function() {
+                MyMar1 = setInterval(Marquee1, speed)
+            }
+        </script>
         <script type="text/javascript">
             var area = document.getElementsByClassName('scrollBox');
             var con1 = document.getElementsByClassName('con1');
             var con2 = document.getElementsByClassName('con2');
 
-            for (i = 0; i < area.length; i++) {
 
+
+            function main(i) {
                 con2[i].innerHTML = con1[i].innerHTML;
                 area[i].scrollLeft = 0;
 
                 function scrollUp() {
-                    if (area[i].scrollLeft >= con2[i].offsetWidth) {
+                    if (area[i].scrollLeft >= area[i].offsetWidth) {
                         area[i].scrollLeft = 0;
                     } else {
-                        area[i].scrollLeft += 5;
+                        area[i].scrollLeft++;
                     }
                 }
-                var time = 10000;
+                var time = 100;
                 var mytimer = setInterval(scrollUp, time);
-                area.οnmοuseοver = function() {
+                area[i].οnmοuseοver = function() {
                     clearInterval(mytimer);
                 }
-                area.οnmοuseοut = function() {
+                area[i].οnmοuseοut = function() {
                     mytimer = setInterval(scrollUp, time);
                 }
             }
 
+            for (i = 0; i <= con1.length; i++) {
+                console.log(i, i.type)
+                main(i)
+            }
+            // con2[0].innerHTML = con1[0].innerHTML;
+            // area[0].scrollLeft = 0;
+
+            // function scrollUp() {
+            //     console.log(area[0])
+            //     if (area[0].scrollLeft >= con2[0].offsetWidth) {
+            //         area[0].scrollLeft = 0;
+            //     } else {
+            //         area[0].scrollLeft += 5;
+            //         // console.log(area[0].scrollLeft)
+            //     }
+            // }
+            // var time = 1000;
+            // var mytimer = setInterval(scrollUp, time);
+            // area.οnmοuseοver = function() {
+            //     clearInterval(mytimer);
+            // }
+            // area.οnmοuseοut = function() {
+            //     mytimer = setInterval(scrollUp, time);
+            // }
 
 
-            /*
-            var speed=10; //数字越大速度越慢
-            var tab=document.getElementById('scrollBox');
-            var tab1=document.getElementById('con1');
-            var tab2=document.getElementById('con2');
-            tab2.innerHTML=tab1.innerHTML;
-            function Marquee(){
-            if(tab2.offsetWidth-tab.scrollLeft<=0)
-            tab.scrollLeft-=tab1.offsetWidth
-            else{
-            tab.scrollLeft++;
-            }
-            }
-            var MyMar=setInterval(Marquee,speed);
-            tab.οnmοuseοver=function() {clearInterval(MyMar)};
-            tab.οnmοuseοut=function() {MyMar=setInterval(Marquee,speed)};
-            */
+
+            // var speed = 10; //数字越大速度越慢
+            // var tab = document.getElementById('scrollBox');
+            // var tab1 = document.getElementById('con1');
+            // var tab2 = document.getElementById('con2');
+            // tab2.innerHTML = tab1.innerHTML;
+
+            // function Marquee() {
+            //     if (tab2.offsetWidth - tab.scrollLeft <= 0)
+            //         tab.scrollLeft -= tab1.offsetWidth
+            //     else {
+            //         tab.scrollLeft++;
+            //     }
+            // }
+            // var MyMar = setInterval(Marquee, speed);
+            // tab.οnmοuseοver = function() {
+            //     clearInterval(MyMar)
+            // };
+            // tab.οnmοuseοut = function() {
+            //     MyMar = setInterval(Marquee, speed)
+            // };
         </script>
         <!-- #primary -->
         <div id="secondary-right" class="widget-area right-sidebar sidebar"></div>
