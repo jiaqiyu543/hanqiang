@@ -1485,6 +1485,11 @@ Top Section
     color: #d481e2;
 }
 
+figure img {
+    width: 135px;
+    height: 45px;
+}
+
 .sidebar #latest-events {
     width: auto;
     float: none;

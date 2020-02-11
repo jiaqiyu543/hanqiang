@@ -59,14 +59,13 @@
                         {foreach name="news" item="vo"}
                         <div class="event-list clearfix">
                             <figure class="event-thumbnail">
-                                <a href="{$site.domain}/congratulations-phd-student-jiahao-xia-received-best-poster-award-in-2019-the-16th-pacific-polymer-conference/">
+                                <a href="{$site.domain}/">
                                     <img src="https://dss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=194233767,3078416653&fm=26&gp=0.jpg">
                                 </a>
                             </figure>
                             <div class="event-detail" style="width:50%">
                                 <h3 class="event-title" style="margin-bottom: 0px;">
-                                    <a href="{$site.domain}/congratulations-phd-student-jiahao-xia-received-best-poster-award-in-2019-the-16th-pacific-polymer-conference/">{$vo.title}</a></h3>
-                                <!-- <div class="event-excerpt">{$vo.create_time|date='Y-m-d',###},{$vo.introduction}</div> -->
+                                    <a href="{$site.domain}">title</a></h3>
                                 <div class="event-excerpt">cial biomimetic materials has attracted abundant attention. As one of the subcategories of biomimetic materials, artificial cells are highly significant for multiple dis</div>
                             </div>
                         </div>
@@ -76,8 +75,8 @@
                     <div id="colee2"></div>
                 </div>
 
-                <p style="margin: 0;"> <a href="{$site.domain}/news" class="more-link">(more…)</a>
-                </p>
+                <a class="all-events" href="/links">More+</a>
+
 
 
             </div>
@@ -89,7 +88,7 @@
 
 
     <div class="ak-container">
-        <section id="primary" class="content-area" style="width: 70%;margin-top: 11px;margin-bottom: 0px;">
+        <section id="primary" class="content-area" style="width: 72%;margin-top: 11px;margin-bottom: 0px;">
             <main id="main" class="site-main" role="main" style="float: right;">
 
                 <style>
@@ -209,34 +208,35 @@
 
 
         <script>
+            //左侧轮播图
             //速度设置
-            var speed = 100;
-            var colee2 = document.getElementById("colee2");
-            var colee1 = document.getElementById("colee1");
-            var colee = document.getElementById("colee");
-            colee2.innerHTML = colee1.innerHTML; //克隆colee1为colee2
-            function Marquee1() {
-                //当滚动至colee1与colee2交界时
-                if (colee2.offsetTop - colee.scrollTop <= 0) { 
-                    colee.scrollTop -= colee1.offsetHeight; //colee跳到最顶端
-                     
-                } else { 
-                    colee.scrollTop++
-                        // console.log('colee2.offsetTop', colee2.offsetTop);
-                        // console.log('colee.scrollTop', colee.scrollTop);
-                }
-            }
-            var MyMar1 = setInterval(Marquee1, speed) //设置定时器
+            // var speed = 100;
+            // var colee2 = document.getElementById("colee2");
+            // var colee1 = document.getElementById("colee1");
+            // var colee = document.getElementById("colee");
+            // colee2.innerHTML = colee1.innerHTML; //克隆colee1为colee2
+            // function Marquee1() {
+            //     //当滚动至colee1与colee2交界时
+            //     if (colee2.offsetTop - colee.scrollTop <= 0) { 
+            //         colee.scrollTop -= colee1.offsetHeight; //colee跳到最顶端
+            //          
+            //     } else { 
+            //         colee.scrollTop++
+            //             // console.log('colee2.offsetTop', colee2.offsetTop);
+            //             // console.log('colee.scrollTop', colee.scrollTop);
+            //     }
+            // }
+            // var MyMar1 = setInterval(Marquee1, speed) //设置定时器
 
 
-            //鼠标移上时清除定时器达到滚动停止的目的
-            colee.onmouseover = function() {
-                    clearInterval(MyMar1)
-                }
-                //鼠标移开时重设定时器
-            colee.onmouseout = function() {
-                MyMar1 = setInterval(Marquee1, speed)
-            }
+            // //鼠标移上时清除定时器达到滚动停止的目的
+            // colee.onmouseover = function() {
+            //         clearInterval(MyMar1)
+            //     }
+            //     //鼠标移开时重设定时器
+            // colee.onmouseout = function() {
+            //     MyMar1 = setInterval(Marquee1, speed)
+            // }
         </script>
         <script type="text/javascript">
             var area = document.getElementsByClassName('scrollBox');
@@ -270,27 +270,6 @@
                 console.log(i, i.type)
                 main(i)
             }
-            // con2[0].innerHTML = con1[0].innerHTML;
-            // area[0].scrollLeft = 0;
-
-            // function scrollUp() {
-            //     console.log(area[0])
-            //     if (area[0].scrollLeft >= con2[0].offsetWidth) {
-            //         area[0].scrollLeft = 0;
-            //     } else {
-            //         area[0].scrollLeft += 5;
-            //         // console.log(area[0].scrollLeft)
-            //     }
-            // }
-            // var time = 1000;
-            // var mytimer = setInterval(scrollUp, time);
-            // area.οnmοuseοver = function() {
-            //     clearInterval(mytimer);
-            // }
-            // area.οnmοuseοut = function() {
-            //     mytimer = setInterval(scrollUp, time);
-            // }
-
 
 
             // var speed = 10; //数字越大速度越慢
