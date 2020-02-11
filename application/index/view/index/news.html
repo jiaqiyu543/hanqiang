@@ -11,6 +11,21 @@
     .entry-title {
         margin-top: 0px;
     }
+    
+    .centent {
+        height: 130px;
+        overflow: hidden;
+    }
+    
+    figure img {
+        width: 85.5px;
+        height: 85.5px;
+    }
+    
+    .cat-event-image img {
+        width: 250px;
+        height: 190px;
+    }
 </style>
 <script language="javascript">
     window.onscroll = function(e) {
@@ -49,7 +64,7 @@
 
                     <div class="event-detail">
                         <h3 class="event-title">
-                            <a href="http://xuslab.com/congratulations-our-paper-has-been-accepted-for-publication-in-advanced-materials/">Congratulations! Our paper has been accepted for publi</a>
+                            <a href="http://xuslab.com/congratulations-our-paper-has-been-accepted-for-publication-in-advanced-materials/">Fabrication of artificial biomimetic materials has attracted</a>
                         </h3>
 
                         <!-- <div class="event-excerpt">
@@ -72,7 +87,7 @@
 
                     <div class="event-detail">
                         <h3 class="event-title">
-                            <a href="http://xuslab.com/happy-year-of-the-mouse/">Happy Year of the Mouse</a>
+                            <a href="http://xuslab.com/happy-year-of-the-mouse/">Fabrication of artificial biomimetic materials has attracted</a>
                         </h3>
 
                         <div class="event-excerpt">
@@ -95,7 +110,7 @@
 
                     <div class="event-detail">
                         <h3 class="event-title">
-                            <a href="http://xuslab.com/scholarships-and-prizes-of-xus-group-in-2019/">Scholarships and prizes of Xu’s group in 2019</a>
+                            <a href="http://xuslab.com/scholarships-and-prizes-of-xus-group-in-2019/">Fabrication of artificial biomimetic materials has attracted</a>
                         </h3>
                         <!-- 
                         <div class="event-excerpt">
@@ -126,14 +141,19 @@
                     </div>
                     <div class="cat-event-excerpt ">
                         <div class="event-date-archive">{$vo.create_time}</div>
-                        <div>{$vo.introduction}</div>
+                        <div class="centent">Fabrication of artificial biomimetic materials has attracted abundant attention. As one of the subcategories of biomimetic materials, artificial cells are highly significant for multiple disciplines and their synthesis has been
+                            intensively pursued. In order to manufacture robust “alive” artificial cells with high throughput, easy operation, and precise control, flexible microfluidic techniques are widely utilized. Herein, recent advances in microfluidic‐based
+                            methods for the synthesis of droplets, vesicles, and artificial cells are summarized. First, the advances of droplet fabrication and manipulation on the T‐junction, flow‐focusing, and coflowing microfluidic devices are discussed.
+                            Then, the formation of unicompartmental and multicompartmental vesicles based on microfluidics are summarized. Furthermore, the engineering of droplet‐based and vesicle‐based artificial cells by microfluidics is also reviewed.
+                            Moreover, the artificial cells applied for imitating cell behavior and acting as bioreactors for synthetic biology are highlighted. Finally, the current challenges and future trends in microfluidic‐based artificial cells are
+                            discussed. This review should be helpful for researchers in the fields of microfluidics, biomaterial fabrication, and synthetic biology.</div>
                     </div>
                 </div>
                 <!-- .entry-content -->
             </article>
 
             {/foreach}
-            <nav class="navigation paging-navigation" role="navigation">
+            <!-- <nav class="navigation paging-navigation" role="navigation">
                 <h1 class="screen-reader-text">Posts navigation</h1>
                 <div class="nav-links">
                     <div class="nav-previous"><a href="{$site.domain}/category/news/page/3/"><span class="meta-nav">&larr;</span> Older posts</a>
@@ -141,8 +161,8 @@
                     <div class="nav-next"><a href="{$site.domain}/category/news/">Newer posts <span class="meta-nav">&rarr;</span></a>
                     </div>
                 </div>
-                <!-- .nav-links -->
-            </nav>
+                
+            </nav> -->
 
             </main>
     </section>

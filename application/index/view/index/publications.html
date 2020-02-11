@@ -1,20 +1,43 @@
 {extend name="index/base" /} {block name="body"}
 <style>
     .sidebar ul li {
-        font-size: 20px;
-        padding: 15px;
-        text-align: center;
+        font-size: 18px;
+        padding: 10px 30px;
     }
     
     ul img {
         width: 130px;
     }
+    
+    .cat-event-image img {
+        width: 250px;
+        height: 190px;
+    }
 </style>
+<script language="javascript">
+    window.onscroll = function(e) {
+
+        var scrolltop = document.documentElement.scrollTop || document.body.scrollTop;
+        node = document.getElementById('top');
+        if (scrolltop <= 200) {
+            node.style.position = '';
+
+
+        } else {
+            node.style.position = 'fixed';
+            node.style.top = '0px';
+            node.style['z-index'] = '9999';
+        }
+        // var box = document.getElementById('box');
+        // box.style.top = scrolltop + 'px';
+        console.log(scrolltop);
+    }
+</script>
 <div style="width: 1170px;margin: auto;">
     <div id="secondary-right" class="widget-area right-sidebar sidebar" style="float:left;">
         <div id="top">
             <aside id="latest-events" class="clearfix">
-                <h3 class="widget-title">Publications</h3>
+                <h3 class="widget-title" style="margin-top: 11px;">Publications</h3>
                 <ul>
                     <li>
                         <a href="#teacher">2016~至今</a>
@@ -26,11 +49,22 @@
                         <a href="#postdoctoral">Before 2010</a>
                     </li>
                     <li>
-                        <a href="#fellows"><img src="http://xuslab.com/wp-content/uploads/2020/01/Liu-C-Advanced-Materials-2020.jpg" alt=""></a>
+                        <div>
+                            <a href="#fellows"><img src="http://xuslab.com/wp-content/uploads/2020/01/Liu-C-Advanced-Materials-2020.jpg" alt=""></a>
+                        </div>
+
                     </li>
                     <li>
-                        <a href="#fellows"><img src="http://xuslab.com/wp-content/uploads/2020/01/Liu-C-Advanced-Materials-2020.jpg" alt=""></a>
+                        <div>
+                            <a href="#fellows"><img src="http://xuslab.com/wp-content/uploads/2020/01/Liu-C-Advanced-Materials-2020.jpg" alt=""></a>
+                        </div>
                     </li>
+                    <li>
+                        <div>
+                            <a href="#fellows"><img src="http://xuslab.com/wp-content/uploads/2020/01/Liu-C-Advanced-Materials-2020.jpg" alt=""></a>
+                        </div>
+                    </li>
+                    <li>
 
                 </ul>
 

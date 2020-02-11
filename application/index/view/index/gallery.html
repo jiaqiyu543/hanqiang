@@ -14,6 +14,15 @@
         background-color: #690;
     }
     
+    .event-thumbnail img {
+        height: 100px;
+        width: 131px;
+    }
+    
+    .sidebar ul li {
+        padding: 10px 30px;
+    }
+    
     #nav ul {
         list-style: none;
         line-height: 40px;
@@ -36,32 +45,72 @@
         background-color: #060;
     }
 </style>
+<script>
+    //速度设置
+    var speed = 100;
+    var colee2 = document.getElementById("colee2");
+    var colee1 = document.getElementById("colee1");
+    var colee = document.getElementById("colee");
+    colee2.innerHTML = colee1.innerHTML; //克隆colee1为colee2
+    function Marquee1() {
+        //当滚动至colee1与colee2交界时
+        if (colee2.offsetTop - colee.scrollTop <= 0) { 
+            colee.scrollTop -= colee1.offsetHeight; //colee跳到最顶端
+             
+        } else { 
+            colee.scrollTop++
+                // console.log('colee2.offsetTop', colee2.offsetTop);
+                // console.log('colee.scrollTop', colee.scrollTop);
+        }
+    }
+    var MyMar1 = setInterval(Marquee1, speed) //设置定时器
 
+
+    //鼠标移上时清除定时器达到滚动停止的目的
+    colee.onmouseover = function() {
+            clearInterval(MyMar1)
+        }
+        //鼠标移开时重设定时器
+    colee.onmouseout = function() {
+        MyMar1 = setInterval(Marquee1, speed)
+    }
+</script>
 
 <div style="width: 1170px;margin: auto;">
 
     <div id="secondary-right" class="widget-area right-sidebar sidebar" style="float:left;width:285px;">
         <aside id="latest-events" class="clearfix">
-            <h3 class="widget-title">MEMBERS</h3>
-            <ul>
-                <li>
-                    <a href="#teacher">Teachers</a>
-                </li>
-                <li>
-                    <a href="#research">Research Associates</a>
-                </li>
-                <li>
-                    <a href="#postdoctoral">Postdoctoral</a>
-                </li>
-                <li>
-                    <a href="#fellows">Fellows</a></li>
-                <li>
-                    <a href="#student">Graduate student</a></li>
-                <li>
-                    <a href="#visitors">Academic visitors</a></li>
-                <li>
-                    <a href="#alumni">Alumni</a></li>
-            </ul>
+            <h3 class="widget-title" style="
+            margin-top: 11px;
+        ">NEWS</h3>
+            <div id="latest-events">
+                <div id="colee" style="overflow:hidden;height:500px;">
+                    <div id="colee1">
+                        {foreach name="news" item="vo"}
+                        <div class="event-list clearfix">
+                            <figure class="event-thumbnail">
+                                <a href="{$site.domain}/congratulations-phd-student-jiahao-xia-received-best-poster-award-in-2019-the-16th-pacific-polymer-conference/">
+                                    <img src="https://dss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=194233767,3078416653&fm=26&gp=0.jpg">
+                                </a>
+                            </figure>
+                            <div class="event-detail">
+                                <h3 class="event-title" style="margin-bottom: 0px;">
+                                    <a href="{$site.domain}/congratulations-phd-student-jiahao-xia-received-best-poster-award-in-2019-the-16th-pacific-polymer-conference/">{$vo.title}</a></h3>
+                                <!-- <div class="event-excerpt">{$vo.create_time|date='Y-m-d',###},{$vo.introduction}</div> -->
+                                <div class="event-excerpt">Fabrication tion, and synthetic biology.</div>
+                            </div>
+                        </div>
+                        {/foreach}
+                        <p></p>
+                    </div>
+                    <div id="colee2"></div>
+                </div>
+
+                <p style="margin: 0;"> <a href="{$site.domain}/news" class="more-link">(more…)</a>
+                </p>
+
+
+            </div>
 
         </aside>
 
