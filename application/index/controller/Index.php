@@ -52,6 +52,19 @@ class Index extends Frontend
         return $this->view->fetch();
     }
 
+    public function new($id)
+    {
+        return $this->view->fetch();
+    }
+    public function publication($id)
+    {
+        return $this->view->fetch();
+    }
+
+    public function resea($id)
+    {
+        return $this->view->fetch();
+    }
     public function members()
     {
         $page = 1;

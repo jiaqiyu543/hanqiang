@@ -1,33 +1,8 @@
 {extend name="index/base" /} {block name="body"}
+
 <style>
-    .event-title {
-        margin-top: 5px;
-    }
-    
-    .cat-event-excerpt {
-        text-align: justify;
-    }
-    
-    .entry-title {
-        margin-top: 0px;
-    }
-    
-    .centent {
-        height: 130px;
-        overflow: hidden;
-    }
-    
-    .cat-event-image img {
-        width: 250px;
-        height: 190px;
-    }
-    
-    .event-list figure:nth-child(2n-1) {
-        float: left;
-    }
-    
-    .event-list figure:nth-child(2n) {
-        float: right;
+    .sidebar ul li {
+        padding: 10px 30px;
     }
 </style>
 <script language="javascript">
@@ -37,14 +12,20 @@
         node = document.getElementById('top');
         if (scrolltop <= 200) {
             node.style.position = '';
+
+
         } else {
             node.style.position = 'fixed';
             node.style.top = '0px';
             node.style['z-index'] = '9999';
         }
+        // var box = document.getElementById('box');
+        // box.style.top = scrolltop + 'px';
+        console.log(scrolltop);
     }
 </script>
 <div style="width: 1170px;margin: auto;">
+
     <div id="secondary-right" class="widget-area right-sidebar sidebar" style="float:left;width:285px;">
         <div id="top" style="width:285px;">
             <aside id="latest-events" class="clearfix">
@@ -132,58 +113,88 @@
             </aside>
         </div>
     </div>
-</div>
+
+    <style>
+        .event-list figure:nth-child(2n-1) {
+            float: left;
+        }
+        
+        .event-list figure:nth-child(2n) {
+            float: right;
+        }
+        
+        .type {
+            text-align: center;
+            border-bottom: 3px solid #F2F2F2;
+            margin: 30PX;
+        }
+        
+        table a {
+            color: cadetblue;
+        }
+        
+        tr td:nth-child(2n) {
+            text-align: center;
+        }
+        
+        td img {
+            height: 250px;
+        }
+    </style>
+
+    <div class="ak-container">
+        <!-- <h2>Teachers</h2> -->
+        <section id="primary" class="content-area" style="width: 75%;margin-bottom:11px;float: right;padding-left: 25px;">
+            <main id="main" class="site-main" role="main">
+                <article id="post-1847" class="post-1847 post type-post status-publish format-standard has-post-thumbnail hentry category-news">
+                    <header class="entry-header">
+                        <h1 class="entry-title">Congratulations! Our paper has been accepted for publication in Advanced Materials</h1>
+
+                        <div class="event-date-archive">News on 14 Jan , 2020</div>
+                    </header>
+                    <!-- .entry-header -->
 
 
-<div class="ak-container">
-    <section id="primary" class="content-area" style="width: 73%;margin-top: 11px;float: right;">
-        <div id="main" class="site-main" role="main">
-            <h1 style="text-align: center;margin-top: 0px;">NEWS LIST</h1>
-            <hr> {foreach name="data" item="vo"}
-            <article id="post-1606" class="cat-event-list">
-                <header class="entry-header">
-                    <h1 class="entry-title"><a href="http://xuslab.com/scholarships-and-prizes-of-xus-group-in-2018/" rel="bookmark">{$vo.title}</a></h1>
-                </header>
-                <!-- .entry-header -->
-                <div class="entry-content">
-                    <div class="cat-event-image">
-                        <img src="/static/index.jpg" alt="Happy Year of the Pig">
+                    <div class="entry-content">
+                        <p>Congratulations on the acceptance of our Communication entitled “Tunable structural color patterns based on the visible-light-responsive dynamic diselenide metathesis” by&nbsp;Advanced Materials.&nbsp;Congratulations to Cheng Liu
+                            et al (DOI: 10.1002/adma.201907569).</p>
+                        <p>
+                            <a href="http://xuslab.com/wp-content/uploads/2020/01/Liu-C-Advanced-Materials-2020.jpg"><img class="alignnone  wp-image-1848" src="http://xuslab.com/wp-content/uploads/2020/01/Liu-C-Advanced-Materials-2020.jpg" alt="Liu C Advanced Materials 2020" width="586" height="586"></a>
+                        </p>
                     </div>
-                    <div class="cat-event-excerpt ">
-                        <div class="event-date-archive">{$vo.create_time}</div>
-                        <div class="centent">
-                            <a href="/new/1">Fabrication of artificial biomimetic materials has attracted abundant attention. As one of the subcategories of biomimetic materials, artificial cells are highly significant for multiple disciplines and their synthesis has been
-                                intensively pursued. In order to manufacture robust “alive” artificial cells with high throughput, easy operation, and precise control, flexible microfluidic techniques are widely utilized. Herein, recent advances in microfluidic‐based
-                                methods for the synthesis of droplets, vesicles, and artificial cells are summarized. First, the advances of droplet fabrication and manipulation on the T‐junction, flow‐focusing, and coflowing microfluidic devices are discussed.
-                                Then, the formation of unicompartmental and multicompartmental vesicles based on microfluidics are summarized. Furthermore, the engineering of droplet‐based and vesicle‐based artificial cells by microfluidics is also reviewed.
-                                Moreover, the artificial cells applied for imitating cell behavior and acting as bioreactors for synthetic biology are highlighted. Finally, the current challenges and future trends in microfluidic‐based artificial cells are
-                                discussed. This review should be helpful for researchers in the fields of microfluidics, biomaterial fabrication, and synthetic biology.</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- .entry-content -->
-            </article>
+                    <!-- .entry-content -->
 
-            {/foreach}
-            <!-- <nav class="navigation paging-navigation" role="navigation">
-                <h1 class="screen-reader-text">Posts navigation</h1>
-                <div class="nav-links">
-                    <div class="nav-previous"><a href="{$site.domain}/category/news/page/3/"><span class="meta-nav">&larr;</span> Older posts</a>
-                    </div>
-                    <div class="nav-next"><a href="{$site.domain}/category/news/">Newer posts <span class="meta-nav">&rarr;</span></a>
-                    </div>
-                </div>
-                
-            </nav> -->
+                    <footer class="entry-footer">
+                        This entry was posted in <a href="http://xuslab.com/category/news/" rel="category tag">News</a>. Bookmark the <a href="http://xuslab.com/congratulations-our-paper-has-been-accepted-for-publication-in-advanced-materials/" rel="bookmark">permalink</a>.
+                    </footer>
+                    <!-- .entry-footer -->
+                </article>
 
-            </main>
-    </section>
-    <!-- #main -->
-    <!-- #primary -->
-    <div id="secondary-right" class="widget-area right-sidebar sidebar"></div>
-    <!-- #secondary -->
+
+
+
+
+
+
+
     </div>
+
+
+
+    <!-- .navigation -->
+    </main>
+    <!-- #main -->
+    </section>
+
 </div>
+<!-- <style>
+    #top {
+        position: fixed;
+        /* top: 0px; */
+        z-index: 1;
+    }
+</style> -->
+
 
 
 {/block}

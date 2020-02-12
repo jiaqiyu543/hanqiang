@@ -1,25 +1,8 @@
 {extend name="index/base" /} {block name="body"}
+
 <style>
-    .event-title {
-        margin-top: 5px;
-    }
-    
-    .cat-event-excerpt {
-        text-align: justify;
-    }
-    
-    .entry-title {
-        margin-top: 0px;
-    }
-    
-    .centent {
-        height: 130px;
-        overflow: hidden;
-    }
-    
-    .cat-event-image img {
-        width: 250px;
-        height: 190px;
+    .sidebar ul li {
+        padding: 10px 30px;
     }
     
     .event-list figure:nth-child(2n-1) {
@@ -37,19 +20,34 @@
         node = document.getElementById('top');
         if (scrolltop <= 200) {
             node.style.position = '';
+
+
         } else {
             node.style.position = 'fixed';
             node.style.top = '0px';
             node.style['z-index'] = '9999';
         }
+        // var box = document.getElementById('box');
+        // box.style.top = scrolltop + 'px';
+        console.log(scrolltop);
     }
 </script>
 <div style="width: 1170px;margin: auto;">
-    <div id="secondary-right" class="widget-area right-sidebar sidebar" style="float:left;width:285px;">
-        <div id="top" style="width:285px;">
+    <div id="secondary-right" class="widget-area right-sidebar sidebar" style="float:left;">
+        <div id="top">
             <aside id="latest-events" class="clearfix">
-                <h3 class="widget-title" style="margin-top: 11px;">LINKS</h3>
-
+                <h3 class="widget-title" style="margin-top: 11px;">Publications</h3>
+                <ul>
+                    <li>
+                        <a href="#teacher">2016~Now</a>
+                    </li>
+                    <li>
+                        <a href="#research">2011-2015</a>
+                    </li>
+                    <li>
+                        <a href="#postdoctoral">Before 2010</a>
+                    </li>
+                </ul>
                 <div class="event-list clearfix">
 
                     <figure class="event">
@@ -88,7 +86,6 @@
                         </a>
                     </figure>
                 </div>
-
                 <div class="event-list clearfix">
 
                     <figure class="event">
@@ -127,63 +124,87 @@
                         </a>
                     </figure>
                 </div>
-
-                <a class="all-events" href="/links">More+</a>
             </aside>
+
         </div>
+
+
     </div>
-</div>
+    <style>
+        .type {
+            text-align: center;
+            border-bottom: 3px solid #F2F2F2;
+            margin: 30PX;
+        }
+        
+        table a {
+            color: cadetblue;
+        }
+        
+        tr td:nth-child(2n) {
+            text-align: center;
+        }
+        
+        td img {
+            height: 250px;
+        }
+    </style>
+
+    <div class="ak-container">
+        <!-- <h2>Teachers</h2> -->
+        <section id="primary" class="content-area" style="width: 75%;margin-bottom:11px;float: right;padding-left: 25px;">
+            <main id="main" class="site-main" role="main">
+                <article id="post-1868" class="post-1868 post type-post status-publish format-standard hentry category-publications">
+                    <header class="entry-header">
+                        <h1 class="entry-title">Selenium-Containing Nanoparticles Combine the NK Cells Mediated Immunotherapy with Radiotherapy and Chemotherapy</h1>
+
+                    </header>
+                    <!-- .entry-header -->
 
 
-<div class="ak-container">
-    <section id="primary" class="content-area" style="width: 73%;margin-top: 11px;float: right;">
-        <div id="main" class="site-main" role="main">
-            <h1 style="text-align: center;margin-top: 0px;">NEWS LIST</h1>
-            <hr> {foreach name="data" item="vo"}
-            <article id="post-1606" class="cat-event-list">
-                <header class="entry-header">
-                    <h1 class="entry-title"><a href="http://xuslab.com/scholarships-and-prizes-of-xus-group-in-2018/" rel="bookmark">{$vo.title}</a></h1>
-                </header>
-                <!-- .entry-header -->
-                <div class="entry-content">
-                    <div class="cat-event-image">
-                        <img src="/static/index.jpg" alt="Happy Year of the Pig">
+                    <div class="entry-content">
+                        <p>Shiqian Gao, Tianyu Li, Ye Guo, Chenxing Sun, Banruo Xianyu, Huaping Xu</p>
+                        <p><em>Adv. Mater.</em>; <strong>2020</strong>, DOI: 10.1002/adma.201907568</p>
+                        <p style="text-align: justify;">Considering the limited clinical benefits of individual approaches against malignancy, natural killer (NK) cell-mediated immunotherapy is increasingly utilized in combination with radiotherapy and target therapeutics. However,
+                            the interplay of targeted agents, immunotherapy and radiotherapy is complex. An improved understanding of the effect of chemotherapy or radiotherapy on specific molecular pathways in immune cells would help to optimize the
+                            synergistic anti-tumour efficiency. In this study, the selenium-containing nanoparticles (NPs) could deliver the chemotherapeutic drug doxorubicin (DOX) to tumour sites by systemic administration. Radiation stimuli facilitate
+                            DOX release and enhance chemotherapy efficiency. Moreover, radiation could oxidize diselenide-containing NPs to seleninic acid, which have both synergistic anti-tumour effect and immunomodulatory activity through enhancing
+                            NK cells function. These results indicate that the selenium-containing NPs would be a potential approach to achieve simultaneous treatments of immunotherapy, chemotherapy and radiotherapy by a simple but effective method.</p>
+                        <p style="text-align: justify;">
+                            <a href="http://xuslab.com/wp-content/uploads/2014/10/Gao-SQ-AM-2020.png"><img class="alignnone  wp-image-1850" src="http://xuslab.com/wp-content/uploads/2014/10/Gao-SQ-AM-2020.png" alt="Gao SQ AM-2020" width="629" height="455"></a>
+                        </p>
                     </div>
-                    <div class="cat-event-excerpt ">
-                        <div class="event-date-archive">{$vo.create_time}</div>
-                        <div class="centent">
-                            <a href="/new/1">Fabrication of artificial biomimetic materials has attracted abundant attention. As one of the subcategories of biomimetic materials, artificial cells are highly significant for multiple disciplines and their synthesis has been
-                                intensively pursued. In order to manufacture robust “alive” artificial cells with high throughput, easy operation, and precise control, flexible microfluidic techniques are widely utilized. Herein, recent advances in microfluidic‐based
-                                methods for the synthesis of droplets, vesicles, and artificial cells are summarized. First, the advances of droplet fabrication and manipulation on the T‐junction, flow‐focusing, and coflowing microfluidic devices are discussed.
-                                Then, the formation of unicompartmental and multicompartmental vesicles based on microfluidics are summarized. Furthermore, the engineering of droplet‐based and vesicle‐based artificial cells by microfluidics is also reviewed.
-                                Moreover, the artificial cells applied for imitating cell behavior and acting as bioreactors for synthetic biology are highlighted. Finally, the current challenges and future trends in microfluidic‐based artificial cells are
-                                discussed. This review should be helpful for researchers in the fields of microfluidics, biomaterial fabrication, and synthetic biology.</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- .entry-content -->
-            </article>
+                    <!-- .entry-content -->
 
-            {/foreach}
-            <!-- <nav class="navigation paging-navigation" role="navigation">
-                <h1 class="screen-reader-text">Posts navigation</h1>
-                <div class="nav-links">
-                    <div class="nav-previous"><a href="{$site.domain}/category/news/page/3/"><span class="meta-nav">&larr;</span> Older posts</a>
-                    </div>
-                    <div class="nav-next"><a href="{$site.domain}/category/news/">Newer posts <span class="meta-nav">&rarr;</span></a>
-                    </div>
-                </div>
-                
-            </nav> -->
+                    <footer class="entry-footer">
+                    </footer>
+                    <!-- .entry-footer -->
+                </article>
 
-            </main>
-    </section>
+
+
+
+
+
+
+    </div>
+
+
+
+    <!-- .navigation -->
+    </main>
     <!-- #main -->
-    <!-- #primary -->
-    <div id="secondary-right" class="widget-area right-sidebar sidebar"></div>
-    <!-- #secondary -->
-    </div>
+    </section>
+
 </div>
+<!-- <style>
+    #top {
+        position: fixed;
+        /* top: 0px; */
+        z-index: 1;
+    }
+</style> -->
+
 
 
 {/block}
