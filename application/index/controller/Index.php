@@ -117,7 +117,10 @@ class Index extends Frontend
         $this->assign('news',$news);
         return $this->view->fetch();
     }
-
+    public function test()
+    {
+        var_dump(config('site'));
+    }
 
     public function publications()
     {

@@ -28,6 +28,7 @@ Route::rule('links','index/index/links');
 // Route::rule('publication/:id','index/index/publication');
 // Route::rule('resea/:id','index/index/resea');
 
+Route::rule('test','index/index/test');
 Route::rule('zhindex','index/zhindex/index');
 
 
