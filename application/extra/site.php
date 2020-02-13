@@ -1,7 +1,7 @@
 <?php
 
 return array (
-  'name' => '韩强化学研究院',
+  'name' => '丁梁研究组',
   'beian' => '浙ICP备20000979号',
   'cdnurl' => '',
   'version' => '1.0.1',
