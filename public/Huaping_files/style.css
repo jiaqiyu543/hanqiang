@@ -1205,14 +1205,14 @@ Menus
 }
 
 .main-navigation li {
-    display: inline-block;	
+    display: inline-block;
     position: relative;
     line-height: 48px;
     font-size: 18px;
     text-transform: uppercase;
     color: #ababab;
     white-space: nowrap;
-    padding-left: 0.2rem;
+    padding-left: 0.17rem;
 }
 
 .main-navigation.menu-right {
