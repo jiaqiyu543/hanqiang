@@ -15,6 +15,8 @@ class Index extends Frontend
     protected $noNeedLogin = '*';
     protected $noNeedRight = '*';
     protected $layout = '';
+    protected $AppID = "wxf97f7b95e24ec36b";
+    protected $AppSecret = "791f883d218a4fee715e5c3bfbb608d3";
 
     public function _initialize()
     {
