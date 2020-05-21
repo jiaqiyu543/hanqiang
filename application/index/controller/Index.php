@@ -24,7 +24,15 @@ class Index extends Frontend
         $this->assign('web_name',$web_name);
         $this->assign('beian',$beian);
     }
+    public function auth()
+    {
+      $code = $_GET['code'];
+      # 获取accessToken和openID
+      $api = "https://api.weixin.qq.com/sns/oauth2/access_token?appid=".$this->AppID."&secret=".$this->AppSecret."&code=".$code."&grant_type=authorization_code";
+      $text =  file_get_contents($api);
+      echo ($text);
 
+    }
     public function index()
     {
         

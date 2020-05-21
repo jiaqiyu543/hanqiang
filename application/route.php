@@ -15,6 +15,7 @@ Route::rule('news','index/index/news');
 Route::rule('members','index/index/members');
 Route::rule('publications','index/index/publications');
 Route::rule('facilities','index/index/facilities');
+Route::rule('auth','index/index/auth');
 
 Route::rule('about_me','index/index/about_me');
 Route::rule('rotation','index/index/rotation');
