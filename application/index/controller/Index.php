@@ -34,7 +34,7 @@ class Index extends Frontend
       $text =  file_get_contents($api);
       $js_obj = json_decode($text);
       
-      if(!property_exists($js,'errcode')){
+      if(!property_exists($js_obj,'errcode')){
         $access_token = $js_obj -> access_token ;
         $openid =  $js_obj -> openid ;
         $refresh_token = $js_obj -> refresh_token ;
