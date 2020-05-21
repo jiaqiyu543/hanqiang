@@ -32,9 +32,23 @@ class Index extends Frontend
       # 获取accessToken和openID
       $api = "https://api.weixin.qq.com/sns/oauth2/access_token?appid=".$this->AppID."&secret=".$this->AppSecret."&code=".$code."&grant_type=authorization_code";
       $text =  file_get_contents($api);
-      echo ($text);
-
+      $js_obj = json_decode($text);
+      
+      if(!property_exists($js,'errcode')){
+        $access_token = $js_obj -> access_token ;
+        $openid =  $js_obj -> openid ;
+        $refresh_token = $js_obj -> refresh_token ;
+        $url_info = "https://api.weixin.qq.com/sns/userinfo?access_token=". $access_token ."&openid=".$openid."&lang=zh_CN";
+        $info_text = file_get_contents($url_info);
+        echo $info_text;
+        
+      }
+      else{
+        echo("获取access_token出错了");
+      }
+      
     }
+
     public function index()
     {
         
