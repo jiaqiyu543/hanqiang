@@ -62,6 +62,12 @@ class Index extends Frontend
         $this->assign('news',$news);
         return $this->view->fetch();
     }
+    
+    
+    public function m_index()
+    {
+        return $this->view->fetch();
+    }
 
     public function news($page=null)
     {
